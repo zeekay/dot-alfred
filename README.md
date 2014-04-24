@@ -1,11 +1,11 @@
-# dot-alfred
-My [Alfred][alfred] configuration. For use with [ellipsis][ellipsis].
+# zeekay/dot-alfred
+My [Alfred][alfred] configuration, compatible with [ellipsis][ellipsis].
 
 ## Install
 Clone and symlink or install with [ellipsis][ellipsis]:
 
 ```
-$ ellipsis install alfred
+$ ellipsis install zeekay/dot-alfred
 ```
 
 [ellipsis]: http://ellipsis.sh
