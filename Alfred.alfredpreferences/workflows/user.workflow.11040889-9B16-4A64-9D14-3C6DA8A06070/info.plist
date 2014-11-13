@@ -45,7 +45,7 @@
 	<key>description</key>
 	<string>Edit files with MacvVim.</string>
 	<key>disabled</key>
-	<false/>
+	<true/>
 	<key>name</key>
 	<string>MacVim</string>
 	<key>objects</key>
@@ -80,6 +80,8 @@ fi</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>2502B5B3-1F2F-4C8F-89EF-CFBDAB0BCEC5</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -99,6 +101,8 @@ fi</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>92317938-A1AD-4D6C-BDB0-878314724543</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -118,6 +122,8 @@ fi</string>
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>F54473F5-E3DA-416A-AF70-DE466A92680A</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -133,6 +139,8 @@ fi</string>
 			<string>alfred.workflow.trigger.action</string>
 			<key>uid</key>
 			<string>4DF00E6B-0890-4B80-9C98-19D84F04ACFB</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 	</array>
 	<key>readme</key>
