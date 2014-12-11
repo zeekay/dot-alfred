@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>C0599899-ADDA-4673-96A5-3A353EF86396</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Launch file group from keyword</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ios simulator</string>
+				<key>subtext</key>
+				<string>/Applications/Xcode.app/Contents/Applications/iOS Simulator.app</string>
+				<key>text</key>
+				<string>iOS Simulator</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C0599899-ADDA-4673-96A5-3A353EF86396</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>/Applications/Xcode.app/Contents/Applications/iOS Simulator.app</string>
+				</array>
+				<key>toggle</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.launchfiles</string>
+			<key>uid</key>
+			<string>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>BA485DB9-5D5D-4C39-B037-F0F78AF590A3</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>C0599899-ADDA-4673-96A5-3A353EF86396</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
