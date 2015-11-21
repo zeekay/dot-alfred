@@ -9,7 +9,7 @@
 			<key>background</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
-			ZWN0AIWEAWMBhARmZmZmg+7tbT+D7u1tP4Pu7W0/AYY=
+			ZWN0AIWEAWMBhARmZmZmg/X0dD+D9fR0P4P19HQ/AYY=
 			</data>
 			<key>border</key>
 			<data>
@@ -25,7 +25,7 @@
 			<key>name</key>
 			<string>OS X Yosemite (Blue)</string>
 			<key>resultPaddingSize</key>
-			<integer>2</integer>
+			<integer>3</integer>
 			<key>resultSelectedBackgroundColor</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
@@ -47,7 +47,7 @@
 			ZWN0AIWEAWMChARmZmZmg5qZGT+DmpkZP4OamRk/AYY=
 			</data>
 			<key>resultSubtextFont</key>
-			<string>Helvetica Neue Light</string>
+			<string>SF UI Display Light</string>
 			<key>resultSubtextFontSize</key>
 			<integer>1</integer>
 			<key>resultTextColor</key>
@@ -56,7 +56,7 @@
 			ZWN0AIWEAWMChARmZmZmgz0KVz6DPQpXPoM9Clc+AYY=
 			</data>
 			<key>resultTextFont</key>
-			<string>Helvetica Neue Light</string>
+			<string>System Light</string>
 			<key>resultTextFontSize</key>
 			<integer>2</integer>
 			<key>scrollbarColor</key>
@@ -67,10 +67,10 @@
 			<key>searchBackgroundColor</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
-			ZWN0AIWEAWMDhAJmZoPLA28/AYY=
+			ZWN0AIWEAWMBhARmZmZmg/X0dD+D9fR0P4P19HQ/AYY=
 			</data>
 			<key>searchFont</key>
-			<string>Helvetica Neue Light</string>
+			<string>System Light</string>
 			<key>searchFontSize</key>
 			<integer>3</integer>
 			<key>searchForegroundColor</key>
@@ -101,7 +101,7 @@
 			ZWN0AIWEAWMChARmZmZmgzMzMz+DMzMzP4MzMzM/AYY=
 			</data>
 			<key>shortcutFont</key>
-			<string>Helvetica Neue Light</string>
+			<string>System Light</string>
 			<key>shortcutFontSize</key>
 			<integer>2</integer>
 			<key>shortcutSelectedColor</key>
@@ -112,7 +112,7 @@
 			<key>uid</key>
 			<string>alfred.theme.custom.05733C5E-8F33-4514-9929-09BE30610800</string>
 			<key>widthSize</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>alfred.theme.custom.62D3A4EB-9954-464F-9BC3-0F6D19C7475E</key>
 		<dict>
