@@ -25,7 +25,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>StackOverflow v1.0</string>
+	<string>StackOverflow v1.0.1</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -37,11 +37,18 @@
 				<integer>62</integer>
 				<key>keyword</key>
 				<string>so</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Please Wait...</string>
 				<key>script</key>
-				<string>import json, StringIO, gzip, alfred, urllib, urllib2, datetime, HTMLParser
-h = HTMLParser.HTMLParser()
+				<string>import json, StringIO, gzip, alfred, urllib, urllib2, datetime
 
 def voiteImg(votes):
 	if votes &lt; 0:
@@ -87,7 +94,7 @@ for q in data['items']:
 	subtitle = "Votes:" + str(q['score']) + "   Answers:" + str(q['answer_count']) + "   View:"+ str(q['view_count']) + "   Create At:" + time
 	img = voiteImg(q['score'])
 
-	item = alfred.Item({'uid': 1, 'arg': arg}, h.unescape(q['title']), subtitle.encode('utf-8'), (img, {'type': 'png'}))
+	item = alfred.Item({'uid': 1, 'arg': arg}, q['title'], subtitle.encode('utf-8'), (img, {'type': 'png'}))
 	results.append(item)
 
 xml = alfred.xml(results)

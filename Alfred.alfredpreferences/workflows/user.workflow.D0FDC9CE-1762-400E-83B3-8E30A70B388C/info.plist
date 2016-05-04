@@ -6,6 +6,17 @@
 	<string>tylereich.colors</string>
 	<key>connections</key>
 	<dict>
+		<key>09BC9704-35C3-42B4-90EB-721E331AD7F7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45CCD086-3241-46A5-A2AF-0B718D47C31C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>16EE3B14-8B6C-45CD-BCC1-C12BFC9B814F</key>
 		<array/>
 		<key>1AE64A87-60D0-4230-B457-4609571FCA1F</key>
@@ -28,7 +39,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>D025EE64-0536-4B6A-A948-EA81F09B2ED9</string>
+				<string>41372D75-6959-49AC-8CAF-2007E83E7BF4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -51,7 +62,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Reveal in Color Picker</string>
+				<string>Reveal in OS X color panel</string>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -59,7 +70,34 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Copy with alpha channel</string>
+				<string>Toggle alpha channel and copy</string>
+			</dict>
+		</array>
+		<key>45CCD086-3241-46A5-A2AF-0B718D47C31C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1AE64A87-60D0-4230-B457-4609571FCA1F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>16EE3B14-8B6C-45CD-BCC1-C12BFC9B814F</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Reveal in OS X color panel</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DF34F852-ABCE-4C35-9363-7AABFF9D24C4</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Toggle alpha channel and copy</string>
 			</dict>
 		</array>
 		<key>6C80A2CD-4BBE-4E27-8BF5-FA913A95D604</key>
@@ -78,7 +116,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Reveal in Color Picker</string>
+				<string>Reveal in OS X color panel</string>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -86,7 +124,34 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Copy with alpha channel</string>
+				<string>Toggle alpha channel and copy</string>
+			</dict>
+		</array>
+		<key>9EE08AB6-59DC-4D7C-8B47-C4C7C514B77F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1AE64A87-60D0-4230-B457-4609571FCA1F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>16EE3B14-8B6C-45CD-BCC1-C12BFC9B814F</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Reveal in OS X color panel</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DF34F852-ABCE-4C35-9363-7AABFF9D24C4</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Toggle alpha channel and copy</string>
 			</dict>
 		</array>
 		<key>A1AB2B83-C8EF-4022-97B8-E20B3D6CBDF8</key>
@@ -105,7 +170,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Reveal in Color Picker</string>
+				<string>Reveal in OS X color panel</string>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -113,7 +178,18 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Copy with alpha channel</string>
+				<string>Toggle alpha channel and copy</string>
+			</dict>
+		</array>
+		<key>BFDA94C6-1294-4C3A-982B-B1DB7123F88B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>45CCD086-3241-46A5-A2AF-0B718D47C31C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
 			</dict>
 		</array>
 		<key>DF34F852-ABCE-4C35-9363-7AABFF9D24C4</key>
@@ -136,7 +212,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>D025EE64-0536-4B6A-A948-EA81F09B2ED9</string>
+				<string>41372D75-6959-49AC-8CAF-2007E83E7BF4</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -159,7 +235,7 @@
 				<key>modifiers</key>
 				<integer>1048576</integer>
 				<key>modifiersubtext</key>
-				<string>Reveal in Color Picker</string>
+				<string>Reveal in OS X color panel</string>
 			</dict>
 			<dict>
 				<key>destinationuid</key>
@@ -167,18 +243,45 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>Copy with alpha channel</string>
+				<string>Toggle alpha channel and copy</string>
+			</dict>
+		</array>
+		<key>FB406D99-0DB3-4A23-8D3C-48AFC20D569E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1AE64A87-60D0-4230-B457-4609571FCA1F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>16EE3B14-8B6C-45CD-BCC1-C12BFC9B814F</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Reveal in OS X color panel</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>DF34F852-ABCE-4C35-9363-7AABFF9D24C4</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Toggle alpha channel and copy</string>
 			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Tyler Eich</string>
 	<key>description</key>
-	<string>Convert between CSS color formats</string>
+	<string>Color tools for developers</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Colors v1.41</string>
+	<string>Colors v2.0.2</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -187,17 +290,94 @@
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>32</integer>
-				<key>keyword</key>
-				<string>c</string>
+				<integer>68</integer>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Processing color data...</string>
 				<key>script</key>
-				<string>php -f colors.php -- '{query}' 'name'</string>
+				<string>./colors "{query}"</string>
 				<key>subtext</key>
-				<string>Convert CSS3 extended colors</string>
+				<string>Convert input color to</string>
 				<key>title</key>
-				<string>Named Color</string>
+				<string>Convert Color…</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>45CCD086-3241-46A5-A2AF-0B718D47C31C</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>BFDA94C6-1294-4C3A-982B-B1DB7123F88B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>feedback</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>09BC9704-35C3-42B4-90EB-721E331AD7F7</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>c</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Processing color data...</string>
+				<key>script</key>
+				<string>./colors "{query}"</string>
+				<key>subtext</key>
+				<string>Convert CSS3 extended named colors</string>
+				<key>title</key>
+				<string>CSS Named Color</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -213,10 +393,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
-				<integer>64</integer>
+				<integer>68</integer>
 				<key>script</key>
-				<string>php -f colors.php -- '{query}' 'pick'</string>
+				<string>./colors --check "{query}"</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -248,17 +430,25 @@
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>32</integer>
+				<integer>68</integer>
 				<key>keyword</key>
 				<string>hsl</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Processing color data...</string>
 				<key>script</key>
-				<string>php -f colors.php -- '{query}' 'hsl'</string>
+				<string>./colors "hsl{query}"</string>
 				<key>subtext</key>
-				<string>Convert HSL colors to other formats</string>
+				<string>Convert CSS HSL colors</string>
 				<key>title</key>
-				<string>Convert HSL color</string>
+				<string>CSS HSL color</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -268,6 +458,43 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>F2BEC6F7-52A4-43DA-83F9-438006D28B56</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>rgb</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Processing color data...</string>
+				<key>script</key>
+				<string>./colors "rgb{query}"</string>
+				<key>subtext</key>
+				<string>Convert CSS RGB colors</string>
+				<key>title</key>
+				<string>CSS RGB Color</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6C80A2CD-4BBE-4E27-8BF5-FA913A95D604</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -299,10 +526,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
-				<integer>64</integer>
+				<integer>68</integer>
 				<key>script</key>
-				<string>php -f colors.php -- '{query}' 'reveal'</string>
+				<string>./colors --reveal "{query}"</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -316,56 +545,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>32</integer>
-				<key>keyword</key>
-				<string>rgb</string>
-				<key>runningsubtext</key>
-				<string>Processing color data...</string>
-				<key>script</key>
-				<string>php -f colors.php -- '{query}' 'rgb'</string>
-				<key>subtext</key>
-				<string>Convert RGB colors to other formats</string>
-				<key>title</key>
-				<string>RGB Color</string>
-				<key>type</key>
-				<integer>0</integer>
-				<key>withspace</key>
+				<key>concurrently</key>
 				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>6C80A2CD-4BBE-4E27-8BF5-FA913A95D604</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>escaping</key>
-				<integer>0</integer>
+				<integer>68</integer>
 				<key>script</key>
-				<string>php -f colors.php -- '{query}' 'clear'</string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.script</string>
-			<key>uid</key>
-			<string>D025EE64-0536-4B6A-A948-EA81F09B2ED9</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>escaping</key>
-				<integer>64</integer>
-				<key>script</key>
-				<string>php -f colors.php -- '{query}' 'alpha'</string>
+				<string>./colors --toggle-alpha "{query}"</string>
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -379,16 +564,43 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>64</integer>
+				<key>script</key>
+				<string>./colors --flush</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.script</string>
+			<key>uid</key>
+			<string>41372D75-6959-49AC-8CAF-2007E83E7BF4</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>32</integer>
+				<integer>68</integer>
 				<key>keyword</key>
 				<string>#</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Processing color data...</string>
 				<key>script</key>
-				<string>php -f colors.php -- '{query}' 'hex'</string>
+				<string>./colors "#{query}"</string>
 				<key>subtext</key>
 				<string>Convert hexadecimal colors</string>
 				<key>title</key>
@@ -405,65 +617,154 @@
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>[ns</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>script</key>
+				<string>./colors "[NS{query}"</string>
+				<key>title</key>
+				<string>NSColor</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FB406D99-0DB3-4A23-8D3C-48AFC20D569E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>[ui</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>script</key>
+				<string>./colors "[UI{query}"</string>
+				<key>title</key>
+				<string>UIColor</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>9EE08AB6-59DC-4D7C-8B47-C4C7C514B77F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string>Array of CSS3 extended color names ported from the spectrum color picker (bgrins.github.com/spectrum/)
-
-HSL conversion formulas by Michael Jackson; port to PHP by Tyler Eich (http://mjijackson.com/2008/02/rgb-to-hsl-and-rgb-to-hsv-color-model-conversion-algorithms-in-javascript)</string>
+	<string>CSS3 extended color names ported from the spectrum color picker (bgrins.github.com/spectrum/)</string>
 	<key>uidata</key>
 	<dict>
+		<key>09BC9704-35C3-42B4-90EB-721E331AD7F7</key>
+		<dict>
+			<key>ypos</key>
+			<real>110</real>
+		</dict>
 		<key>16EE3B14-8B6C-45CD-BCC1-C12BFC9B814F</key>
 		<dict>
 			<key>ypos</key>
-			<real>190</real>
+			<real>330</real>
 		</dict>
 		<key>1AE64A87-60D0-4230-B457-4609571FCA1F</key>
 		<dict>
 			<key>ypos</key>
-			<real>70</real>
+			<real>230</real>
 		</dict>
 		<key>2256D9F2-F0F1-4543-8893-622DDFA83A5E</key>
 		<dict>
 			<key>ypos</key>
-			<real>370</real>
+			<real>430</real>
 		</dict>
-		<key>6C80A2CD-4BBE-4E27-8BF5-FA913A95D604</key>
+		<key>41372D75-6959-49AC-8CAF-2007E83E7BF4</key>
 		<dict>
 			<key>ypos</key>
-			<real>250</real>
+			<real>430</real>
 		</dict>
-		<key>85D1E110-A191-4FF5-9CFD-BB3B884C576F</key>
-		<dict>
-			<key>ypos</key>
-			<real>190</real>
-		</dict>
-		<key>A1AB2B83-C8EF-4022-97B8-E20B3D6CBDF8</key>
+		<key>45CCD086-3241-46A5-A2AF-0B718D47C31C</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>D025EE64-0536-4B6A-A948-EA81F09B2ED9</key>
+		<key>6C80A2CD-4BBE-4E27-8BF5-FA913A95D604</key>
 		<dict>
 			<key>ypos</key>
-			<real>310</real>
+			<real>330</real>
 		</dict>
-		<key>DCF950C0-BEB0-4CFD-A79B-BA403852D463</key>
+		<key>85D1E110-A191-4FF5-9CFD-BB3B884C576F</key>
 		<dict>
 			<key>ypos</key>
-			<real>70</real>
+			<real>330</real>
 		</dict>
-		<key>DF34F852-ABCE-4C35-9363-7AABFF9D24C4</key>
+		<key>9EE08AB6-59DC-4D7C-8B47-C4C7C514B77F</key>
 		<dict>
 			<key>ypos</key>
-			<real>310</real>
+			<real>650</real>
 		</dict>
-		<key>F2BEC6F7-52A4-43DA-83F9-438006D28B56</key>
+		<key>A1AB2B83-C8EF-4022-97B8-E20B3D6CBDF8</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
+		<key>BFDA94C6-1294-4C3A-982B-B1DB7123F88B</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>DCF950C0-BEB0-4CFD-A79B-BA403852D463</key>
+		<dict>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>DF34F852-ABCE-4C35-9363-7AABFF9D24C4</key>
+		<dict>
+			<key>ypos</key>
+			<real>430</real>
+		</dict>
+		<key>F2BEC6F7-52A4-43DA-83F9-438006D28B56</key>
+		<dict>
+			<key>ypos</key>
+			<real>230</real>
+		</dict>
+		<key>FB406D99-0DB3-4A23-8D3C-48AFC20D569E</key>
+		<dict>
+			<key>ypos</key>
+			<real>550</real>
+		</dict>
 	</dict>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/TylerEich/Alfred-Extras</string>
 </dict>
 </plist>

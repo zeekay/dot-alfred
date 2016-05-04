@@ -8,6 +8,7 @@ class Item
     private $title;
     private $comparator;
     private $subtitle;
+    private $icon;
     private $arg;
     private $valid = true;
     private $add = '…';
@@ -49,6 +50,12 @@ class Item
     public function subtitle($subtitle)
     {
         $this->subtitle = $subtitle;
+        return $this;
+    }
+
+    public function icon($icon)
+    {
+        $this->icon = $icon;
         return $this;
     }
 
@@ -114,19 +121,34 @@ class Item
      * @param self[] $items
      * @return string
      */
-    public static function toXml(array $items)
+    public static function toXml(array $items, $enterprise, $baseUrl)
     {
         $xml = new SimpleXMLElement('<items></items>');
+        $prefix = $enterprise ? 'e ' : ' ';
         foreach ($items as $item) {
             $c = $xml->addChild('item');
             $title = $item->prefix . $item->title;
             $c->addAttribute('uid', $item->randomUid ? md5(time() . $title) : md5($title));
-            $c->addChild('icon', 'icon.png');
+            if ($item->icon && file_exists(__DIR__ . '/icons/' . $item->icon . '.png')) {
+                $c->addChild('icon', 'icons/' . $item->icon . '.png');
+            } else {
+                $c->addChild('icon', 'icon.png');
+            }
             if ($item->arg) {
-                $c->addAttribute('arg', $item->arg);
+                $arg = $item->arg;
+                if ('/' === $arg[0]) {
+                    $arg = $baseUrl . $arg;
+                } elseif (false === strpos($arg, '://')) {
+                    $arg = ltrim($prefix . $arg);
+                }
+                $c->addAttribute('arg', $arg);
             }
             if ($item->autocomplete) {
-                $c->addAttribute('autocomplete', ' ' . ($item->prefixOnlyTitle ? $item->title : $item->prefix . $item->title));
+                if ($item->comparator) {
+                    $c->addAttribute('autocomplete', $prefix . $item->comparator);
+                } else {
+                    $c->addAttribute('autocomplete', $prefix . ($item->prefixOnlyTitle ? $item->title : $item->prefix . $item->title));
+                }
             }
             if (!$item->valid) {
                 $c->addAttribute('valid', 'no');

@@ -1,30 +1,49 @@
 <?php
 
 require 'item.php';
+require 'curl.php';
 
 class Workflow
 {
-    const VERSION = '5815167a2e124588959d313b32566dc63bf7df69';
+    const VERSION = 'cb8826fbd2ef9c7fd5a25f2bf0142bc667c413bc';
     const BUNDLE = 'de.gh01.alfred.github';
     const DEFAULT_CACHE_MAX_AGE = 10;
 
-    private static $fileCookies;
+    private static $filePids;
+
     /** @var PDO */
     private static $db;
+    /** @var PDOStatement[] */
+    private static $statements = array();
+
+    private static $enterprise;
+    private static $baseUrl = 'https://github.com';
+    private static $apiUrl = 'https://api.github.com';
+    private static $gistUrl = 'https://gist.github.com';
+
     private static $query;
     private static $items = array();
 
-    public static function init($query = null)
+    private static $refreshUrls = array();
+
+    public static function init($enterprise = false, $query = null)
     {
+        date_default_timezone_set('UTC');
+        self::$enterprise = $enterprise;
         self::$query = $query;
-        $dataDir  = $_SERVER['HOME'] . '/Library/Application Support/Alfred 2/Workflow Data/' . self::BUNDLE;
+        if (isset($_ENV['alfred_workflow_data'])) {
+            $dataDir = $_ENV['alfred_workflow_data'];
+        } else {
+            $dataDir = (isset($_ENV['HOME']) ? $_ENV['HOME'] : $_SERVER['HOME']) . '/Library/Application Support/Alfred 2/Workflow Data/' . self::BUNDLE;
+            $_ENV['alfred_workflow_data'] = $dataDir;
+        }
         if (!is_dir($dataDir)) {
             mkdir($dataDir);
         }
-        self::$fileCookies = $dataDir . '/cookies';
+        self::$filePids = $dataDir . '/pid';
         $fileDb = $dataDir . '/db.sqlite';
         $exists = file_exists($fileDb);
-        self::$db = new PDO('sqlite:' . $fileDb, null, null, array(PDO::ATTR_PERSISTENT => true));
+        self::$db = new PDO('sqlite:' . $fileDb, null, null);
         if (!$exists) {
             self::$db->exec('
                 CREATE TABLE config (
@@ -32,22 +51,21 @@ class Workflow
                     value TEXT
                 )
             ');
-            self::$db->exec('
-                CREATE TABLE request_cache (
-                    url TEXT PRIMARY KEY,
-                    timestamp INTEGER,
-                    etag TEXT,
-                    content TEXT,
-                    refresh INTEGER
-                )
-            ');
+            self::createRequestCacheTable();
+        }
+        if (self::$enterprise) {
+            self::$baseUrl = self::getConfig('enterprise_url');
+            self::$apiUrl = self::$baseUrl ? self::$baseUrl . '/api/v3' : null;
+            self::$gistUrl = self::$baseUrl ? self::$baseUrl . '/gist' : null;
         }
         register_shutdown_function(array(__CLASS__, 'shutdown'));
     }
 
     public static function shutdown()
     {
-        self::$db->exec('DELETE FROM request_cache WHERE timestamp < ' . (time() - 30 * 24 * 60 * 60));
+        if (self::$refreshUrls) {
+            exec('php action.php "> refresh-cache ' . implode(',', self::$refreshUrls) . '" > /dev/null 2>&1 &');
+        }
     }
 
     public static function setConfig($key, $value)
@@ -68,47 +86,80 @@ class Workflow
         self::getStatement('DELETE FROM config WHERE key = ?')->execute(array($key));
     }
 
-    public static function request($url, &$status = null, &$etag = null, $post = false, array $data = array())
+    public static function getBaseUrl()
     {
-        $debug = false;
-        $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_HEADER, 1);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-        curl_setopt($ch, CURLOPT_COOKIEJAR, self::$fileCookies);
-        curl_setopt($ch, CURLOPT_COOKIEFILE, self::$fileCookies);
-        curl_setopt($ch, CURLOPT_USERAGENT, 'alfred-github-workflow');
-        if ($debug) {
-            curl_setopt($ch, CURLOPT_PROXY, 'localhost');
-            curl_setopt($ch, CURLOPT_PROXYPORT, 8888);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-        }
-        if ($post) {
-            curl_setopt($ch, CURLOPT_POST, true);
-            curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-        } elseif ($etag) {
-            curl_setopt($ch, CURLOPT_HTTPHEADER, array('If-None-Match: ' . $etag));
-        }
-        $response = curl_exec($ch);
-        if (false === $response) {
-            curl_close($ch);
-            return false;
-        }
-        if ($debug) {
-            list(, $header, $body) = explode("\r\n\r\n", $response, 3);
-        } else {
-            list($header, $body) = explode("\r\n\r\n", $response, 2);
-        }
-        $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-        curl_close($ch);
-        if (preg_match('/^ETag: (\V*)/mi', $header, $match)) {
-            $etag = $match[1];
-        }
-        return $status == 200 ? $body : null;
+        return self::$baseUrl;
     }
 
-    public static function requestCache($url, $maxAge = self::DEFAULT_CACHE_MAX_AGE, $refreshInBackground = true)
+    public static function getApiUrl()
     {
+        return self::$apiUrl;
+    }
+
+    public static function getGistUrl()
+    {
+        return self::$gistUrl;
+    }
+
+    public static function setAccessToken($token)
+    {
+        self::setConfig(self::$enterprise ? 'enterprise_access_token' : 'access_token', $token);
+    }
+
+    public static function getAccessToken()
+    {
+        return self::getConfig(self::$enterprise ? 'enterprise_access_token' : 'access_token');
+    }
+
+    public static function removeAccessToken()
+    {
+        self::removeConfig(self::$enterprise ? 'enterprise_access_token' : 'access_token');
+    }
+
+    public static function request($url, Curl $curl = null, $callback = null)
+    {
+        $return = false;
+        $returnValue = null;
+        if (!$curl) {
+            $curl = new Curl();
+            $return = true;
+            $callback = function ($content) use (&$returnValue) {
+                $returnValue = $content;
+            };
+        }
+
+        $curl->add(new CurlRequest($url, null, function (CurlResponse $response) use ($callback) {
+            if (is_callable($callback) && isset($response->content)) {
+                $callback($response->content);
+            }
+        }));
+
+        if ($return) {
+            $curl->execute();
+        }
+        return $returnValue;
+    }
+
+    /**
+     * @param string   $url
+     * @param Curl     $curl
+     * @param callable $callback
+     * @param int      $maxAge
+     * @param bool     $refreshInBackground
+     * @return mixed
+     */
+    public static function requestCache($url, Curl $curl = null, $callback = null, $maxAge = self::DEFAULT_CACHE_MAX_AGE, $refreshInBackground = true)
+    {
+        $return = false;
+        $returnValue = null;
+        if (!$curl) {
+            $curl = new Curl();
+            $return = true;
+            $callback = function ($content) use (&$returnValue) {
+                $returnValue = $content;
+            };
+        }
+
         $stmt = self::getStatement('SELECT * FROM request_cache WHERE url = ?');
         $stmt->execute(array($url));
         $stmt->bindColumn('timestamp', $timestamp);
@@ -116,47 +167,103 @@ class Workflow
         $stmt->bindColumn('content', $content);
         $stmt->bindColumn('refresh', $refresh);
         $stmt->fetch(PDO::FETCH_BOUND);
-        if ($timestamp < time() - 60 * $maxAge) {
-            if ($refreshInBackground && !is_null($content)) {
-                if ($refresh < time() - 60) {
-                    self::getStatement('UPDATE request_cache SET refresh = ? WHERE url = ?')->execute(array(time(), $url));
-                    exec('php action.php "> refresh-cache ' . $url . '" > /dev/null 2>&1 &');
-                }
-                return $content;
-            }
-            $newContent = self::request($url, $status, $etag);
-            if (false === $newContent) {
-                return $content;
-            }
-            switch ($status) {
-                /** @noinspection PhpMissingBreakStatementInspection */
-                case 200:
-                    $content = $newContent;
-                // fall trough
-                case 304:
-                    $timestamp = time();
-                    self::getStatement('REPLACE INTO request_cache VALUES(?, ?, ?, ?, 0)')->execute(array($url, $timestamp, $etag, $content));
-                    break;
 
-                default:
-                    self::getStatement('DELETE FROM request_cache WHERE url = ?')->execute(array($url));
-                    return null;
-            }
+        $shouldRefresh = $timestamp < time() - 60 * $maxAge;
+        $refreshInBackground = $refreshInBackground && !is_null($content);
+
+        if ($shouldRefresh && $refreshInBackground && $refresh < time() - 60) {
+            self::getStatement('UPDATE request_cache SET refresh = ? WHERE url = ?')->execute(array(time(), $url));
+            self::$refreshUrls[] = $url;
         }
-        return $content;
+
+        if (!$shouldRefresh || $refreshInBackground) {
+            $content = json_decode($content);
+            $stmt = self::getStatement('SELECT url, content FROM request_cache WHERE parent = ? ORDER BY `timestamp` DESC');
+            while ($stmt->execute(array($url)) && $data = $stmt->fetchObject()) {
+                $content = array_merge($content, json_decode($data->content));
+                $url = $data->url;
+            }
+            if (is_callable($callback)) {
+                $callback($content);
+            }
+            return $returnValue;
+        }
+
+        $responses = array();
+
+        $handleResponse = function (CurlResponse $response, $content, $parent = null) use (&$handleResponse, $curl, &$responses, $stmt, $callback) {
+            $url = $response->request->url;
+            if ($response && in_array($response->status, array(200, 304))) {
+                $checkNext = false;
+                if (304 == $response->status) {
+                    $response->content = $content;
+                    $checkNext = true;
+                } elseif (false === stripos($response->contentType, 'json')) {
+                    $response->content = json_encode($response->content);
+                }
+                $responses[] = $response->content;
+                Workflow::getStatement('REPLACE INTO request_cache VALUES(?, ?, ?, ?, 0, ?)')
+                    ->execute(array($url, time(), $response->etag, $response->content, $parent));
+                if ($checkNext || $response->link && preg_match('/<(.+)>; rel="next"/U', $response->link, $match)) {
+                    $stmt = Workflow::getStatement('SELECT * FROM request_cache WHERE parent = ?');
+                    $stmt->execute(array($url));
+                    if ($checkNext) {
+                        $stmt->bindColumn('url', $nextUrl);
+                    } else {
+                        $nextUrl = $match[1];
+                    }
+                    $stmt->bindColumn('etag', $etag);
+                    $stmt->bindColumn('content', $content);
+                    $stmt->fetch(PDO::FETCH_BOUND);
+                    if ($nextUrl) {
+                        $curl->add(new CurlRequest($nextUrl, $etag, function (CurlResponse $response) use ($handleResponse, $url, $content) {
+                            $handleResponse($response, $content, $url);
+                        }));
+                        return;
+                    }
+                } else {
+                    Workflow::getStatement('DELETE FROM request_cache WHERE parent = ?')->execute(array($url));
+                }
+            } else {
+                Workflow::getStatement('DELETE FROM request_cache WHERE url = ?')->execute(array($url));
+                $url = null;
+            }
+
+            if (is_callable($callback)) {
+                if (empty($responses)) {
+                    $callback(array());
+                    return;
+                }
+                if (1 === count($responses)) {
+                    $callback(json_decode($responses[0]));
+                    return;
+                }
+                $callback(array_reduce($responses, function ($content, $response) {
+                    return array_merge($content, json_decode($response));
+                }, array()));
+            }
+        };
+
+        $curl->add(new CurlRequest($url, $etag, function (CurlResponse $response) use (&$responses, $handleResponse, $callback, $content) {
+            $handleResponse($response, $content);
+        }));
+
+        if ($return) {
+            $curl->execute();
+        }
+        return $returnValue;
     }
 
-    public static function requestCacheJson($url, $key = null, $maxAge = self::DEFAULT_CACHE_MAX_AGE)
+    public static function requestApi($url, Curl $curl = null, $callback = null, $maxAge = self::DEFAULT_CACHE_MAX_AGE)
     {
-        $content = self::requestCache($url, $maxAge);
-        if (!is_string($content)) {
-            return null;
-        }
-        $content = json_decode($content);
-        if ($key && !isset($content->$key)) {
-            return null;
-        }
-        return $key ? $content->$key : $content;
+        $paramStart = false === strpos($url, '?') ? '?' : '&';
+        $url = self::getApiUrl() . $url . $paramStart . 'per_page=100';
+        return self::requestCache($url, $curl, $callback, $maxAge);
+    }
+
+    public static function cleanCache()
+    {
+        self::$db->exec('DELETE FROM request_cache WHERE timestamp < ' . (time() - 30 * 24 * 60 * 60));
     }
 
     public static function deleteCache()
@@ -164,69 +271,59 @@ class Workflow
         self::$db->exec('DELETE FROM request_cache');
     }
 
-    public static function deleteCookies()
+    public static function startServer()
     {
-        if (file_exists(self::$fileCookies)) {
-            unlink(self::$fileCookies);
+        if (version_compare(PHP_VERSION, '5.4', '>=')) {
+            self::stopServer();
+            shell_exec(sprintf(
+                'alfred_workflow_data=%s php -d variables_order=EGPCS -S localhost:2233 server.php > /dev/null 2>&1 & echo $! >> %s',
+                escapeshellarg($_ENV['alfred_workflow_data']),
+                escapeshellarg(self::$filePids)
+            ));
         }
-        self::removeConfig('user');
     }
 
-    public static function getToken($content = null)
+    public static function stopServer()
     {
-        $content = $content ?: self::request('https://github.com/');
-        preg_match('@<meta content="(.*)" name="csrf-token" />@U', $content, $match);
-        return isset($match[1]) ? $match[1] : null;
-    }
-
-    public static function askForPassword($title, $label)
-    {
-        return exec('osascript <<END
-tell application "Alfred 2"
-    activate
-    set alfredPath to (path to application "Alfred 2")
-    set alfredIcon to path to resource "appicon.icns" in bundle (alfredPath as alias)
-    display dialog "' . escapeshellcmd(addslashes($label)) . ':" with title "' . escapeshellcmd(addslashes($title)) . '" buttons {"OK"} default button "OK" default answer "" with icon alfredIcon with hidden answer
-    set answer to text returned of result
-end tell
-END');
+        if (file_exists(self::$filePids)) {
+            $pids = file(self::$filePids);
+            foreach ($pids as $pid) {
+                shell_exec('kill -9 ' . $pid);
+            }
+            unlink(self::$filePids);
+        }
     }
 
     public static function checkUpdate()
     {
         if (self::getConfig('version') !== self::VERSION) {
-            if (file_exists($file = __DIR__ . '/class.php')) {
-                unlink($file);
-            }
-            $configFile = $_SERVER['HOME'] . '/Library/Application Support/Alfred 2/Workflow Data/' . self::BUNDLE . '/config.json';
-            if (file_exists($configFile)) {
-                $config = json_decode(file_get_contents($configFile), true);
-                foreach ($config as $key => $value) {
-                    self::setConfig($key, $value);
-                }
-                unlink($configFile);
-            }
-            $cacheDir = $_SERVER['HOME'] . '/Library/Caches/com.runningwithcrayons.Alfred-2/Workflow Data/' . self::BUNDLE;
-            $cacheFile = $cacheDir . '/cache.json';
-            if (file_exists($cacheFile)) {
-                $cache = json_decode(file_get_contents($cacheFile), true);
-                $stmt = self::getStatement('REPLACE INTO request_cache VALUES(?, ?, ?, ?, 0)');
-                foreach ($cache as $url => $c) {
-                    $stmt->execute(array($url, $c['timestamp'], $c['etag'], $c['content']));
-                }
-                unlink($cacheFile);
-            }
-            if (is_dir($cacheDir)) {
-                rmdir($cacheDir);
-            }
             self::setConfig('version', self::VERSION);
-            self::deleteCache();
+            //self::deleteCache();
+            self::closeCursors();
+            self::$db->exec('DROP TABLE request_cache');
+            self::createRequestCacheTable();
         }
         if (!self::getConfig('autoupdate', 1)) {
             return false;
+        } elseif (!is_dir(__DIR__ . '/icons')) {
+            return true;
         }
-        $version = self::requestCache('http://gh01.de/alfred/github/current', 1440);
+        $version = self::requestCache('http://gh01.de/alfred/github/current', null, null, 1440);
         return $version !== null && $version !== self::VERSION;
+    }
+
+    private static function createRequestCacheTable()
+    {
+        self::$db->exec('
+            CREATE TABLE request_cache (
+                url TEXT PRIMARY KEY,
+                timestamp INTEGER,
+                etag TEXT,
+                content TEXT,
+                refresh INTEGER,
+                parent TEXT
+            )
+        ');
     }
 
     public static function addItem(Item $item, $check = true)
@@ -245,19 +342,26 @@ END');
 
     public static function getItemsAsXml()
     {
-        return Item::toXml(self::$items);
+        return Item::toXml(self::$items, self::$enterprise, self::getBaseUrl());
     }
 
     /**
      * @param string $query
      * @return PDOStatement
      */
-    protected static function getStatement($query)
+    public static function getStatement($query)
     {
-        static $stmts = array();
-        if (!isset($stmts[$query])) {
-            $stmts[$query] = self::$db->prepare($query);
+        if (!isset(self::$statements[$query])) {
+            self::$statements[$query] = self::$db->prepare($query);
         }
-        return $stmts[$query];
+        return self::$statements[$query];
+    }
+
+    protected static function closeCursors()
+    {
+        foreach (self::$statements as $statement) {
+            $statement->closeCursor();
+        }
+        self::$statements = array();
     }
 }

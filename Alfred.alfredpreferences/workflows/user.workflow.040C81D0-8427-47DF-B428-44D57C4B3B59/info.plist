@@ -19,13 +19,13 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Will Farrell</string>
+	<string>will Farrell (@willfarrell)</string>
 	<key>description</key>
 	<string>caniuse.com search</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Can I Use v1.3</string>
+	<string>caniuse (v1.7)</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -37,6 +37,14 @@
 				<integer>0</integer>
 				<key>keyword</key>
 				<string>caniuse</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Updating database ...</string>
 				<key>script</key>
