@@ -1,7 +1,7 @@
 {
   "alfredtheme" : {
     "result" : {
-      "textSpacing" : 6,
+      "textSpacing" : 9,
       "subtext" : {
         "size" : 11,
         "colorSelected" : "#FFFFFFD1",
@@ -16,7 +16,7 @@
       },
       "backgroundSelected" : "#0069D9FF",
       "text" : {
-        "size" : 16,
+        "size" : 14,
         "colorSelected" : "#FFFFFFFF",
         "font" : "System Light",
         "color" : "#353535FF"
@@ -27,10 +27,10 @@
     },
     "search" : {
       "paddingVertical" : 2,
-      "background" : "#F6F6F6FF",
+      "background" : "#F6F6F600",
       "spacing" : 10,
       "text" : {
-        "size" : 32,
+        "size" : 31,
         "colorSelected" : "#000000FF",
         "font" : "System Light",
         "color" : "#000000FF"
@@ -38,7 +38,7 @@
       "backgroundSelected" : "#A3C8F0FF"
     },
     "window" : {
-      "color" : "#F6F6F6FF",
+      "color" : "#EFF1F3FF",
       "paddingHorizontal" : 10,
       "width" : 620,
       "borderPadding" : 10,
