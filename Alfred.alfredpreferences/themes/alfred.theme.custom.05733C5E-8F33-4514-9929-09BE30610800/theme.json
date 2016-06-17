@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 6,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#FFFFFFD1",
+        "font" : "SF UI Display Light",
+        "color" : "#999999FF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#E5E5E5FF",
+        "font" : "System Light",
+        "color" : "#B2B2B2FF"
+      },
+      "backgroundSelected" : "#0069D9FF",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System Light",
+        "color" : "#353535FF"
+      },
+      "iconPaddingHorizontal" : 5,
+      "paddingVertical" : 6,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 2,
+      "background" : "#F6F6F6FF",
+      "spacing" : 10,
+      "text" : {
+        "size" : 32,
+        "colorSelected" : "#000000FF",
+        "font" : "System Light",
+        "color" : "#000000FF"
+      },
+      "backgroundSelected" : "#A3C8F0FF"
+    },
+    "window" : {
+      "color" : "#F6F6F6FF",
+      "paddingHorizontal" : 10,
+      "width" : 620,
+      "borderPadding" : 10,
+      "borderColor" : "#00000000",
+      "blur" : 0,
+      "roundness" : 3,
+      "paddingVertical" : 10
+    },
+    "credit" : "Zach Kelling",
+    "separator" : {
+      "color" : "#00000000",
+      "thickness" : 1
+    },
+    "scrollbar" : {
+      "color" : "#00000019",
+      "thickness" : 2
+    },
+    "name" : "OS X Yosemite (Blue) (v2)"
+  }
+}
