@@ -3,7 +3,7 @@
     "result" : {
       "textSpacing" : 9,
       "subtext" : {
-        "size" : 11,
+        "size" : 10,
         "colorSelected" : "#FFFFFFD1",
         "font" : "SF UI Display Light",
         "color" : "#999999FF"
@@ -16,21 +16,21 @@
       },
       "backgroundSelected" : "#0069D9FF",
       "text" : {
-        "size" : 14,
+        "size" : 15,
         "colorSelected" : "#FFFFFFFF",
         "font" : "System Light",
         "color" : "#353535FF"
       },
-      "iconPaddingHorizontal" : 5,
-      "paddingVertical" : 6,
-      "iconSize" : 40
+      "iconPaddingHorizontal" : 10,
+      "paddingVertical" : 8,
+      "iconSize" : 32
     },
     "search" : {
-      "paddingVertical" : 2,
+      "paddingVertical" : 5,
       "background" : "#F6F6F600",
-      "spacing" : 10,
+      "spacing" : 0,
       "text" : {
-        "size" : 31,
+        "size" : 26,
         "colorSelected" : "#000000FF",
         "font" : "System Light",
         "color" : "#000000FF"
@@ -39,13 +39,13 @@
     },
     "window" : {
       "color" : "#EFF1F3FF",
-      "paddingHorizontal" : 10,
+      "paddingHorizontal" : 0,
       "width" : 620,
       "borderPadding" : 10,
       "borderColor" : "#00000000",
       "blur" : 0,
       "roundness" : 3,
-      "paddingVertical" : 10
+      "paddingVertical" : 0
     },
     "credit" : "Zach Kelling",
     "separator" : {
