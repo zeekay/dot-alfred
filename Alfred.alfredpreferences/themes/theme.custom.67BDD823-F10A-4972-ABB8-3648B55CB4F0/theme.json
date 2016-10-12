@@ -3,7 +3,7 @@
     "result" : {
       "textSpacing" : 5,
       "subtext" : {
-        "size" : 11,
+        "size" : 12,
         "colorSelected" : "#FFFFFFC4",
         "font" : "System",
         "color" : "#00000065"
@@ -26,7 +26,7 @@
       "iconSize" : 40
     },
     "search" : {
-      "paddingVertical" : 4,
+      "paddingVertical" : 0,
       "background" : "#FFFFFF00",
       "spacing" : 4,
       "text" : {
