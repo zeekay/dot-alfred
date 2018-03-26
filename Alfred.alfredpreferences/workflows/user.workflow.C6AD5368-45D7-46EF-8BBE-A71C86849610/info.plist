@@ -530,13 +530,15 @@
 				<false/>
 				<key>modsmode</key>
 				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>FE07FB7A-2793-4821-AF73-930844D4A08F</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -553,13 +555,15 @@
 				<false/>
 				<key>modsmode</key>
 				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>09B36308-DBB3-40B8-95AF-8F5CC94D5EC4</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -772,7 +776,7 @@
 				<key>escaping</key>
 				<integer>117</integer>
 				<key>keyword</key>
-				<string>sgv</string>
+				<string>svg</string>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
@@ -992,15 +996,15 @@
 				<key>escaping</key>
 				<integer>117</integer>
 				<key>keyword</key>
-				<string>sass</string>
+				<string>go</string>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>./dashAlfredWorkflow "sass:{query}"</string>
+				<string>./dashAlfredWorkflow "go:{query}"</string>
 				<key>subtext</key>
-				<string>Search SASS for "{query}"</string>
+				<string>Search Go for "{query}"</string>
 				<key>title</key>
-				<string>Search SASS</string>
+				<string>Search Go</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
