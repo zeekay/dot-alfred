@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 4,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#D8D8D8FF",
+        "font" : "Helvetica",
+        "color" : "#A5A5A5FF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Helvetica",
+        "color" : "#A5A5A5FF"
+      },
+      "backgroundSelected" : "#3A70D7FF",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "Helvetica",
+        "color" : "#191919FF"
+      },
+      "iconPaddingHorizontal" : 5,
+      "paddingVertical" : 2,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 2,
+      "background" : "#EFEEEEFF",
+      "spacing" : 10,
+      "text" : {
+        "size" : 36,
+        "colorSelected" : "#000000FF",
+        "font" : "Helvetica",
+        "color" : "#333333FF"
+      },
+      "backgroundSelected" : "#B2D7FFFF"
+    },
+    "window" : {
+      "color" : "#F6F6F6F4",
+      "paddingHorizontal" : 10,
+      "width" : 680,
+      "borderPadding" : 10,
+      "borderColor" : "#00000000",
+      "blur" : 0,
+      "roundness" : 3,
+      "paddingVertical" : 10
+    },
+    "credit" : "Zach Kelling",
+    "separator" : {
+      "color" : "#FFFFFF00",
+      "thickness" : 1
+    },
+    "scrollbar" : {
+      "color" : "#BDBDBD00",
+      "thickness" : 2
+    },
+    "name" : "OS X Mavericks (v2)"
+  }
+}

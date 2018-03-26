@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentthemeuid</key>
+	<string>theme.custom.67BDD823-F10A-4972-ABB8-3648B55CB4F0</string>
+	<key>theme</key>
+	<string>alfred.theme.yosemite</string>
+</dict>
+</plist>

@@ -6,6 +6,36 @@
 	<string>com.farrell.pkgman.alfredworkflow</string>
 	<key>connections</key>
 	<dict>
+		<key>0376C25E-AF4F-4F76-B9BC-AD9E998CE4A3</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+		</array>
+		<key>135ECB8C-557A-41D9-BF9A-6439A5EA949E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E928110A-9651-4404-BCF3-CCF77B35BB0B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
 		<key>18B0C07D-A101-4267-B306-7925DE8A30C9</key>
 		<array>
 			<dict>
@@ -17,15 +47,25 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>1A806429-BBAB-4227-B0C9-46E96CD3E492</key>
+		<array/>
 		<key>265DF548-7D96-4F94-AB0E-6AD26F31B4A1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 		<key>2BECD5EE-3FDE-434C-8ADA-2FEAE34FBF34</key>
@@ -43,11 +83,38 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+		</array>
+		<key>436DF03B-19A8-47CA-A8C6-27C31A52BB22</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 		<key>4F9B49BB-0F1E-4D72-A339-08C76E2D2C2A</key>
@@ -72,11 +139,73 @@
 				<string></string>
 			</dict>
 		</array>
+		<key>5D46DE45-AD0E-4A12-8AE6-BFC129AA4C0F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into Terminal (paste to front most app).</string>
+			</dict>
+		</array>
 		<key>5F73C46B-877B-4BC6-A231-E72525BBCEB2</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into package.json dependencies (paste to front most app).</string>
+			</dict>
+		</array>
+		<key>641E4359-7656-456E-93F2-11FE0F755254</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -87,11 +216,81 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into composer.json require (paste to front most app).</string>
+			</dict>
+		</array>
+		<key>689DD809-6CBA-476F-9299-4D22CAF07D9F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into Brewfile (paste to front most app).</string>
+			</dict>
+		</array>
+		<key>6DA4E86D-6897-4E36-811B-EA9340364E48</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into package.json dependencies (paste to front most app).</string>
 			</dict>
 		</array>
 		<key>72C0A2C4-3F23-46F5-831F-F0A7C4FD04C2</key>
@@ -100,22 +299,46 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into Brewfile (paste to front most app).</string>
 			</dict>
 		</array>
 		<key>8CEC2062-2484-4200-AE7A-BED7DA65E298</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 		<key>96A609DD-13FB-44C7-9ADB-F3BC94017A65</key>
@@ -124,40 +347,110 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 		<key>A83F18D3-B34F-4AA7-A164-F19D8CE1C790</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 		<key>B9D9D59E-5B75-418E-8D5D-75EADD6D162A</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 		<key>C0190356-1EDC-4E5C-8187-9E3C4C69FBD1</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into package.json dependencies (paste to front most app).</string>
+			</dict>
+		</array>
+		<key>CDC59D6D-6D7A-48F9-BFC3-72DAF712EF19</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+		</array>
+		<key>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A6F75F15-2128-4002-A841-2872651A1640</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -168,44 +461,130 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+		</array>
+		<key>D882F2C5-CA0E-4D23-B1CC-28AC8AD1DB0E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 		<key>D8F2FDC0-B462-4C50-8A42-9E6A511395A8</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 		<key>E106723F-9932-431B-8250-64F2983338FC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into package.json dependencies (paste to front most app).</string>
 			</dict>
 		</array>
 		<key>E894CAC8-3680-4863-B8A5-EFCFD78B56F3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Inject package into bower.json dependencies (paste to front most app).</string>
+			</dict>
+		</array>
+		<key>F1559F42-7F85-4A26-A604-6E31BD686380</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy package name to front most app.</string>
 			</dict>
 		</array>
 	</dict>
@@ -216,7 +595,7 @@
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Package Managers (v1.19)</string>
+	<string>Package Managers (v3.09)</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -243,16 +622,18 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>script</key>
 				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+require_once('code/Cache.php');
 
 $cache = new Cache();
 
 foreach($cache-&gt;dbs as $key =&gt; $url) {
+	//$cache-&gt;get_db($key);
 	$cache-&gt;update_db($key);
 }</string>
 				<key>type</key>
@@ -293,12 +674,38 @@ foreach($cache-&gt;dbs as $key =&gt; $url) {
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>Package Manager Databases Cleared</string>
+				<key>title</key>
+				<string>Cache Deleted</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>0A704625-29E6-450E-8F2C-8E4EC7179899</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>script</key>
 				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+require_once('code/Cache.php');
 
 $cache = new Cache();
 
@@ -337,31 +744,6 @@ $cache-&gt;clear();</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>output</key>
-				<integer>0</integer>
-				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
-				<false/>
-				<key>text</key>
-				<string>Package Manager Databases Cleared</string>
-				<key>title</key>
-				<string>Cache Deleted</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>0A704625-29E6-450E-8F2C-8E4EC7179899</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>action</key>
 				<integer>0</integer>
 				<key>argument</key>
@@ -374,13 +756,15 @@ $cache-&gt;clear();</string>
 				<false/>
 				<key>modsmode</key>
 				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>96A609DD-13FB-44C7-9ADB-F3BC94017A65</string>
 			<key>version</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -391,32 +775,25 @@ $cache-&gt;clear();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>bower</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Bower.php');
 
-$pkgs = $cache-&gt;get_query_json('bower', $query, 'https://bower.herokuapp.com/packages/search/'.$query);
-
-foreach($pkgs as $pkg) {
-	$url = str_replace("git://", "https://", $pkg-&gt;url);
-	$w-&gt;result( $pkg-&gt;url, $url, $pkg-&gt;name, $url, 'icon-cache/bower.png' );
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'bower', 'http://sindresorhus.com/bower-components/#!/search/'.$query, 'No components were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/bower.png' );
-	}
-	$w-&gt;result( 'bower-www', 'http://bower.io/', 'Go to the website', 'http://bower.io', 'icon-cache/bower.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Bower();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search bower for "{query}"</string>
 				<key>title</key>
@@ -441,54 +818,95 @@ echo $w-&gt;toxml();</string>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
-				<string>grunt</string>
+				<string>yo</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Yo.php');
 
-$pkgs = (array) $cache-&gt;get_db('grunt')-&gt;aaData;
+$repo = new WillFarrell\AlfredPkgMan\Yo();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search Yeoman for "{query}"</string>
+				<key>title</key>
+				<string>Search Yeoman</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6DA4E86D-6897-4E36-811B-EA9340364E48</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>1</integer>
+				<key>argument</key>
+				<integer>1</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>72C0A2C4-3F23-46F5-831F-F0A7C4FD04C2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>grunt</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-function search($plugin, $query) {
-	if (strpos($plugin-&gt;name, $query) !== false) {
-		return true;
-	} else if (strpos($plugin-&gt;ds, $query) !== false) {
-		return true;
-	} 
+require_once('code/Grunt.php');
 
-	return false;
-}
-
-foreach($pkgs as $plugin) {
-	if (search($plugin,  $query)) {
-		$title = str_replace('grunt-', '', $plugin-&gt;name); // remove grunt- from title
-	
-		// add author to title
-		if (isset($plugin-&gt;author)) {
-			$title .= " by " . $plugin-&gt;author;
-		}
-		$url = 'https://www.npmjs.org/package/' . $plugin-&gt;name;
-		
-		//if (strpos($plugin-&gt;description, "DEPRECATED") !== false) { continue; } // skip DEPRECATED repos
-		$w-&gt;result( $plugin-&gt;name, $url, $title, $plugin-&gt;ds, 'icon-cache/grunt.png' );
-	}
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'grunt', 'http://gruntjs.com/plugins/'.$query, 'No plugins were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/grunt.png' );
-	}
-	$w-&gt;result( 'grunt-www', 'http://gruntjs.com/', 'Go to the website', 'http://gruntjs.com', 'icon-cache/grunt.png' );
-}
-
-echo $w-&gt;toxml();
-</string>
+$repo = new WillFarrell\AlfredPkgMan\Grunt();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search Grunt for "{query}"</string>
 				<key>title</key>
@@ -508,81 +926,31 @@ echo $w-&gt;toxml();
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>1</integer>
-				<key>argument</key>
-				<integer>1</integer>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>72C0A2C4-3F23-46F5-831F-F0A7C4FD04C2</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>gulp</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Gulp.php');
 
-$pkgs = (array) $cache-&gt;get_db('gulp')-&gt;results;
-
-function search($plugin, $query) {
-	if (strpos($plugin-&gt;name, $query) !== false) {
-		return true;
-	} else if (strpos($plugin-&gt;description, $query) !== false) {
-		return true;
-	} 
-
-	return false;
-}
-
-foreach($pkgs as $plugin) {
-	if (search($plugin, $query)) {
-		$title = str_replace('gulp-', '', $plugin-&gt;name); // remove pulp- from title
-	
-		// add author to title
-		if (isset($plugin-&gt;author)) {
-			$title .= " by " . $plugin-&gt;author;
-		}
-		
-		//if (strpos($plugin-&gt;description, "DEPRECATED") !== false) { continue; } // skip DEPRECATED repos
-		$w-&gt;result( $plugin-&gt;name, $plugin-&gt;homepage, $title, $plugin-&gt;description, 'icon-cache/gulp.png' );
-	}
-}
-
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'gulp', 'http://gulpjs.com/plugins/#?q='.$query, 'No plugins were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/gulp.png' );
-	}
-	$w-&gt;result( 'gulp-www', 'http://gulpjs.com/', 'Go to the website', 'http://gulpjs.com', 'icon-cache/gulp.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Gulp();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search gulp for "{query}"</string>
 				<key>title</key>
@@ -608,40 +976,25 @@ echo $w-&gt;toxml();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>npm</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Npm.php');
 
-$pkgs = $cache-&gt;get_query_regex('npm', $query, 'https://www.npmjs.org/search?q='.$query, '/&lt;li class="search-result package"&gt;([\s\S]*?)&lt;\/ul&gt;/i');
-
-
-foreach($pkgs as $item) {
-	preg_match('/&lt;h2&gt;(.*?)&lt;\/h2&gt;/i', $item, $matches);
-	$title = strip_tags($matches[1]);
-	
-	preg_match_all('/&lt;p[^&gt;]*&gt;([\s\S]*?)&lt;\/p&gt;/i', $item, $matches);
-	$author = trim(strip_tags($matches[1][0]));
-	$author = preg_replace("/[\s]+/", " ", $author);
-	$details = trim(strip_tags($matches[1][1]));
-	
-	$w-&gt;result( $title, 'https://www.npmjs.org/package/'.$title, $title.' ~ '.$author, $details, 'icon-cache/npm.png' );
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'npm', 'https://www.npmjs.org/search?q='.$query, 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/npm.png' );
-	}
-	$w-&gt;result( 'npm-www', 'https://www.npmjs.org/', 'Go to the website', 'https://www.npmjs.org', 'icon-cache/npm.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Npm();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search npm for "{query}"</string>
 				<key>title</key>
@@ -667,39 +1020,27 @@ echo $w-&gt;toxml();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>composer</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Composer.php');
 
-$pkgs = $cache-&gt;get_query_regex('composer', $query, 'https://packagist.org/search/?search_query[query]='.$query, '/&lt;li data-url="(.*?)"&gt;([\s\S]*?)&lt;\/li&gt;/i', 2);
-
-foreach($pkgs as $item) {
-	preg_match('/&lt;a(.*?)&lt;\/a&gt;/i', $item, $matches);
-	$title = strip_tags($matches[0]);
-	
-	preg_match('/&lt;p class="package-description"&gt;([\s\S]*?)&lt;\/p&gt;/i', $item, $matches);
-	$details = strip_tags(substr($matches[1], 2));
-	
-	$w-&gt;result( $title, 'https://packagist.org/packages/'.$title, $title, $details, 'icon-cache/composer.png' );
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'composer', 'https://packagist.org/search/?q='.$query, 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/composer.png' );
-	}
-	$w-&gt;result( 'composer-www', 'http://getcomposer.org/', 'Go to the website', 'http://getcomposer.org', 'icon-cache/composer.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Composer();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
-				<string>Search Compoer for "{query}"</string>
+				<string>Search Composer for "{query}"</string>
 				<key>title</key>
 				<string>Composer</string>
 				<key>type</key>
@@ -723,40 +1064,25 @@ echo $w-&gt;toxml();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>pear</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Pear.php');
 
-$pkgs = $cache-&gt;get_query_regex('pear', $query, 'http://pear.php.net/search.php?q='.$query, '/&lt;li&gt;([\s\S]*?)&lt;\/li&gt;/i');
-
-array_shift($pkgs); // remove first item
-
-foreach($pkgs as $item) {
-	// name
-	preg_match('/&lt;a(.*?)&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
-	$title = strip_tags($matches[0]);
-	
-	// url
-	$details = strip_tags(substr($item, strpos($item, ":")+2));
-	
-	$w-&gt;result( $title, 'http://pear.php.net/package/'.$title, $title, $details, 'icon-cache/pear.png' );
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'pear', 'http://pear.php.net/search.php?q='.$query, 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/pear.png' );
-	}
-	$w-&gt;result( 'pear-www', 'http://pear.php.net/', 'Go to the website', 'http://pear.php.net', 'icon-cache/pear.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Pear();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search PEAR for "{query}"</string>
 				<key>title</key>
@@ -782,45 +1108,25 @@ echo $w-&gt;toxml();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>gems</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Gems.php');
 
-$pkgs = $cache-&gt;get_query_regex('gems', $query, 'http://rubygems.org/search?utf8=%E2%9C%93&amp;query='.$query, '/&lt;li&gt;([\s\S]*?)&lt;\/li&gt;/i');
-
-foreach($pkgs as $item) {
-	// name
-	preg_match_all('/&lt;strong&gt;(.*?)&lt;\/strong&gt;/i', $item, $matches);
-	if (isset($matches[1][1])) {
-		$title = strip_tags($matches[1][1]);
-	} else { continue; }
-	
-	// url
-	preg_match('/&lt;a href="(.*?)"&gt;([\s\S]*?)&lt;\/a&gt;/i', $item, $matches);
-	$url = $matches[1];
-	
-	$details = trim(strip_tags(substr($matches[2], strpos($matches[2], "&lt;/strong&gt;")+9)));
-	
-	if ($title &amp;&amp; $details) { // filter out nav links
-		$w-&gt;result( $title, 'http://rubygems.org'.$url, $title, $details, 'icon-cache/gems.png' );
-	}
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'gems', 'http://rubygems.org/search?utf8=%E2%9C%93&amp;query='.$query, 'No gems were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/gems.png' );
-	}
-	$w-&gt;result( 'gems-www', 'http://rubygems.org/', 'Go to the website', 'http://rubygems.org', 'icon-cache/gems.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Gems();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search Ruby Gems for "{query}"</string>
 				<key>title</key>
@@ -846,48 +1152,25 @@ echo $w-&gt;toxml();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>pypi</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>$min_query_length = 3;
-error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Pypi.php');
 
-if (strlen($query) &gt;= $min_query_length) {
-	$pkgs = $cache-&gt;get_query_regex('pypi', $query, 'https://pypi.python.org/pypi?%3Aaction=search&amp;term='.$query.'&amp;submit=search', '/&lt;tr class="(.*?)"&gt;([\s\S]*?)&lt;\/tr&gt;/i', 2);
-	
-	$count = 25;
-	foreach($pkgs as $item) {
-		// name
-		preg_match('/&lt;a href="(.*?)"&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
-		$title = str_replace("&amp;nbsp;", " ", strip_tags($matches[0]));
-		$url = strip_tags($matches[1]);
-		
-		preg_match_all('/&lt;td&gt;([\s\S]*?)&lt;\/td&gt;/i', $item, $matches);
-		$downloads = strip_tags($matches[1][1]);
-		$details = strip_tags($matches[1][2]);
-		
-		$w-&gt;result( $title, 'https://crate.io'.$url, $title."    ".$downloads, $details, 'icon-cache/pypi.png' );
-		if (!--$count) { break; }
-	}
-	
-	if ( count( $w-&gt;results() ) == 0) {
-		if($query) {
-			$w-&gt;result( 'pypi', 'https://pypi.python.org/pypi?%3Aaction=search&amp;term='.$query.'&amp;submit=search', 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/pypi.png' );
-		}
-		$w-&gt;result( 'pypi-www', 'https://pypi.python.org/', 'Go to the website', 'https://pypi.python.org', 'icon-cache/pypi.png' );
-	}
-} else {
-	$w-&gt;result( 'pypi', null, 'Query too short', 'Due to drawbacks in the API, the minimum query length is '.$min_query_length.'.', 'icon-cache/pypi.png', 'no' );
-	$w-&gt;result( 'pypi-www', 'https://pypi.python.org/', 'Go to the website', 'https://pypi.python.org', 'icon-cache/pypi.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Pypi();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search Python for "{query}"</string>
 				<key>title</key>
@@ -913,46 +1196,25 @@ echo $w-&gt;toxml();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>alcatraz</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Alcatraz.php');
 
-$pkgs = $cache-&gt;get_db('alcatraz');
-
-function search($item, $query) {
-	if (strpos($item-&gt;name, $query) !== false) {
-		return true;
-	} else if (strpos($item-&gt;description, $query) !== false) {
-		return true;
-	}
-	return false;
-}
-
-foreach($pkgs-&gt;packages as $package ) {
-	// plugins, color_scheme, project_templates, file_templates
-	for( $i = 0; $i &lt; count($package); $i++ ) {
-		
-		if (search($package[$i], $query)) {
-			$w-&gt;result( $package[$i]-&gt;url, $package[$i]-&gt;url, $package[$i]-&gt;name, $package[$i]-&gt;description, 'icon-cache/alcatraz.png' );
-		}
-	}
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'alcatraz', 'http://mneorr.github.io/Alcatraz/'.$query, 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/alcatraz.png' );
-	}
-	$w-&gt;result( 'alcatraz-www', 'http://mneorr.github.io/Alcatraz/', 'Go to the website', 'http://mneorr.github.io/Alcatraz', 'icon-cache/alcatraz.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Alcatraz();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search Alcatraz for "{query}"</string>
 				<key>title</key>
@@ -978,85 +1240,25 @@ echo $w-&gt;toxml();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>cocoa</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>$apple_docs = false;
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+require_once('code/Cocoa.php');
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
-
-$pkgs = $cache-&gt;get_db('cocoa');
-if ($apple_docs) {
-	$apple = $cache-&gt;get_db('apple');
-	$pkgs = array_merge((array)$pkgs, (array)$apple);
-}
-
-function search($plugin, $query) {
-	if (strpos($plugin-&gt;name, $query) !== false) {
-		return true;
-	} else if (isset($plugin-&gt;summary) &amp;&amp; strpos($plugin-&gt;summary, $query) !== false) {
-		return true;
-	}
-	return false;
-}
-
-$count = 25;
-foreach($pkgs as $library ) {
-	if (search($library,  $query)) {
-		$title = $library-&gt;name;
-		if (isset($library-&gt;main_version)) { $title .= ' ('.$library-&gt;main_version.')'; }
-		if (isset($library-&gt;user)) { $title .= ' ~ '.$library-&gt;user; }
-		
-		$url = (isset($library-&gt;url)) ? $library-&gt;url : $library-&gt;doc_url;
-		$details = (isset($library-&gt;summary)) ? $library-&gt;summary : $library-&gt;framework;
-		
-		$icon = (isset($library-&gt;url)) ? 'xcode.png' : 'cocoa.png';
-		$w-&gt;result( $library-&gt;name, $url, $title, $details, 'icon-cache/'.$icon );
-		if (!--$count) { break; }
-	}
-}
-/*
-// query
-if ($query) {
-	$data = $w-&gt;request('http://cocoapods.org/search?query='.$query.'&amp;ids=20&amp;offset=0');
-	$json = json_decode($data);
-	//print_r($json);
-	foreach($json-&gt;allocations as $group) {
-		$name = $group[4];
-		$html = $group[5];
-		for($i = 0; $i &lt; count($name); $i++) {
-			print_r($name[$i]);
-			print_r($html[$i]);
-			// name
-			//preg_match('/&lt;a(.*?)&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
-			//$title = strip_tags($matches[0]);
-			
-			// url
-			//preg_match('/Homepage: &lt;a(.*?)&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
-			//$details = strip_tags(substr($item, strpos($item, ":")+2));
-			
-			//$w-&gt;result( $title, 'http://pear.php.net/package/'.$title, $title, $details, 'cocoa.png' );
-			
-			$url = ''; // parsed grom $html[5]
-			$w-&gt;result( $title, $url, $name[$i], '', 'cocoa.png' );
-		}
-	}
-}*/
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'cocoa', 'http://cocoadocs.org/?q='.$query, 'No libraries were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/cocoa.png' );
-	}
-	$w-&gt;result( 'cocoa-www', 'http://cocoadocs.org/', 'Go to the website', 'http://http://cocoadocs.org', 'icon-cache/cocoa.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Cocoa();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search CocoaPods for "{query}"</string>
 				<key>title</key>
@@ -1082,44 +1284,25 @@ echo $w-&gt;toxml();</string>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>brew</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searcing for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Brew.php');
 
-
-$pkgs = $cache-&gt;get_query_regex('brew', $query, 'http://braumeister.org/search/'.$query, '/&lt;div class="formula (odd|even)"&gt;([\s\S]*?)&lt;\/div&gt;/i', 2);
-
-foreach($pkgs as $item) {
-	// name
-	preg_match('/&lt;a href="(.*?)" class="formula"&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
-	$title = strip_tags($matches[0]);
-	
-	// version
-	preg_match('/&lt;strong class="version"&gt;(.*?)&lt;\/strong&gt;/i', $item, $matches);
-	$version = strip_tags($matches[0]);
-	
-	// url
-	preg_match('/Homepage: &lt;a href="(.*?)"&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
-	$details = strip_tags($matches[1]);
-	
-	$w-&gt;result( $title, 'http://braumeister.org/formula/'.$title, $title.' ~ '.$version, $details, 'icon-cache/brew.png' );
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'brew', 'http://braumeister.org/search/'.$query, 'No plugins were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/brew.png' );
-	}
-	$w-&gt;result( 'brew-www', 'http://braumeister.org/', 'Go to the website', 'http://braumeister.org', 'icon-cache/brew.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Brew();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search homebrew for "{query}"</string>
 				<key>title</key>
@@ -1140,45 +1323,162 @@ echo $w-&gt;toxml();</string>
 			<key>config</key>
 			<dict>
 				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>hex</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching hex for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+require_once('code/Hex.php');
+
+$repo = new WillFarrell\AlfredPkgMan\Hex();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search hex for "{query}"</string>
+				<key>title</key>
+				<string>Search hex</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>641E4359-7656-456E-93F2-11FE0F755254</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>apt-get</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+require_once('code/AptGet.php');
+
+$repo = new WillFarrell\AlfredPkgMan\AptGet();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search apt-get for "{query}"</string>
+				<key>title</key>
+				<string>Search apt-get</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D882F2C5-CA0E-4D23-B1CC-28AC8AD1DB0E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>puppet</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+require_once('code/Puppet.php');
+
+$repo = new WillFarrell\AlfredPkgMan\Puppet();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search puppet for "{query}"</string>
+				<key>title</key>
+				<string>Search puppet</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F1559F42-7F85-4A26-A604-6E31BD686380</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>rpm</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Rpm.php');
 
-$pkgs = $cache-&gt;get_query_regex('rpm', $query, 'http://rpmfind.net/linux/rpm2html/search.php?query='.$query.'&amp;system=&amp;arch=', '/&lt;tr bgcolor=\'\'&gt;([\s\S]*?)&lt;\/tr&gt;/i');
-
-foreach($pkgs as $item) {
-	// title and url
-	preg_match('/&lt;a href=[\'"](.*?)[\'"]&gt;(.*?)&lt;\/a&gt;/i', $item, $matches);
-	$title = strip_tags($matches[2]);
-	$url = strip_tags($matches[1]);
-	
-	preg_match_all('/&lt;td&gt;([\s\S]*?)&lt;\/td&gt;/i', $item, $matches);
-	$dist = trim(strip_tags($matches[1][2]));
-	$details = trim(strip_tags($matches[1][1]));
-	
-	$w-&gt;result( $title, $url, $title, $dist.' - '.$details, 'icon-cache/rpm.png' );
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'rpm', 'http://rpmfind.net/linux/rpm2html/search.php?query='.$query.'&amp;system=&amp;arch=', 'No packages were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/rpm.png' );
-	}
-	$w-&gt;result( 'rpm-www', 'http://rpmfind.net/', 'Go to the website', 'http://rpmfind.net', 'icon-cache/rpm.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Rpm();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search rpm for "{query}"</string>
 				<key>title</key>
@@ -1198,17 +1498,25 @@ echo $w-&gt;toxml();</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>plusspaces</key>
+				<key>concurrently</key>
 				<false/>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>query="{query}";
+
+id=$(echo $query | cut -d "|" -f1)
+url=$(echo $query | cut -d "|" -f2)
+pkgstr=$(echo $query | cut -d "|" -f3)
+
+open $url</string>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</string>
+			<string>1A806429-BBAB-4227-B0C9-46E96CD3E492</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -1218,41 +1526,32 @@ echo $w-&gt;toxml();</string>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>63</integer>
+				<integer>55</integer>
 				<key>keyword</key>
 				<string>maven</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Maven.php');
 
-$pkgs = $cache-&gt;get_query_json('maven', $query, 'http://search.maven.org/solrsearch/select?q='.$query.'&amp;rows=10&amp;wt=json');
-
-foreach($pkgs-&gt;response-&gt;docs as $item) {
-	$title = $item-&gt;a.' ('.$item-&gt;latestVersion.')';
-	$url = 'http://search.maven.org/#artifactdetails%7C'.$item-&gt;g.'%7C'.$item-&gt;a.'%7C'.$item-&gt;latestVersion.'%7C'.$item-&gt;p;
-	$details = 'GroupId: '.$item-&gt;id;
-	$w-&gt;result( $title, $url, $title, $details, 'icon-cache/maven.png' );
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'maven', 'http://mvnrepository.com/search.html?query='.$query, 'No libraries were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/maven.png' );
-	}
-	$w-&gt;result( 'maven-www', 'http://mvnrepository.com/', 'Go to the website', 'http://mvnrepository.com', 'icon-cache/maven.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Maven();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
-				<string>Search Mavin for "{query}"</string>
+				<string>Search Maven for "{query}"</string>
 				<key>title</key>
-				<string>Search Mavin</string>
+				<string>Search Maven</string>
 				<key>type</key>
 				<integer>1</integer>
 				<key>withspace</key>
@@ -1268,57 +1567,199 @@ echo $w-&gt;toxml();</string>
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>E928110A-9651-4404-BCF3-CCF77B35BB0B</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>query="{query}";
+
+id=$(echo $query | cut -d "|" -f1)
+url=$(echo $query | cut -d "|" -f2)
+pkgstr=$(echo $query | cut -d "|" -f3)
+
+echo $id</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>135ECB8C-557A-41D9-BF9A-6439A5EA949E</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>gradle</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+require_once('code/Gradle.php');
+
+$repo = new WillFarrell\AlfredPkgMan\Gradle();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search Gradle for "{query}"</string>
+				<key>title</key>
+				<string>Search Gradle</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>CDC59D6D-6D7A-48F9-BFC3-72DAF712EF19</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>chef</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+require_once('code/Chef.php');
+
+$repo = new WillFarrell\AlfredPkgMan\Chef();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search chef for "{query}"</string>
+				<key>title</key>
+				<string>Search Chef’s Supermarket</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>436DF03B-19A8-47CA-A8C6-27C31A52BB22</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string>query="{query}";
+
+id=$(echo $query | cut -d "|" -f1)
+url=$(echo $query | cut -d "|" -f2)
+pkgstr=$(echo $query | cut -d "|" -f3)
+
+echo $pkgstr</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>A6F75F15-2128-4002-A841-2872651A1640</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
 				<integer>63</integer>
 				<key>keyword</key>
 				<string>docker</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
 				<key>runningsubtext</key>
 				<string>Searching for "{query}"</string>
 				<key>script</key>
-				<string>error_reporting(0);
-require_once('cache.php');
-require_once('workflows.php');
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
 
-$cache = new Cache();
-$w = new Workflows();
-$query = urlencode( "{query}" );
+require_once('code/Docker.php');
 
-$pkgs = $cache-&gt;get_query_regex('docker', $query, 'https://index.docker.io/search?q='.$query, '/&lt;li&gt;[\s]*&lt;h3&gt;([\s\S]*?)&lt;\/li&gt;/i', 1); // requires parsing
-
-//$count = 25;
-foreach($pkgs as $pkg) {
-	preg_match('/&lt;a href="(.*?)"&gt;(.*?)&lt;\/a&gt;/i', $pkg, $matches);
-	$title = $matches[2];
-	$url = 'https://index.docker.io'.$matches[1];
-	
-	preg_match('/&lt;p&gt;(.*?)&lt;\/p&gt;/i', $pkg, $matches);
-	$description = $matches[1];
-	if (!$description) {
-		$description = $url;
-	}
-	
-	preg_match('/&lt;p class="date"&gt;Last updated: (.*?)[\s]*downloaded: (.*?) times&lt;\/p&gt;/i', $pkg, $matches);
-	$updated = $matches[1];
-	if ($updated == "Not Available") {
-		$updated = "";
-	}
-	$downloads = $matches[2];
-	
-	$w-&gt;result( $title, $url, $title."    ".$updated."    ".$downloads, $description, 'icon-cache/docker.png' );
-	
-	//if (!--$count) { break; }
-}
-
-if ( count( $w-&gt;results() ) == 0) {
-	if($query) {
-		$w-&gt;result( 'docker', 'https://index.docker.io/search?q='.$query, 'No plugins were found that matched "'.$query.'"', 'Click to see the results for yourself', 'icon-cache/docker.png' );
-	}
-	$w-&gt;result( 'docker-www', 'http://www.docker.io/', 'Go to the website', 'http://www.docker.io', 'icon-cache/docker.png' );
-}
-
-echo $w-&gt;toxml();</string>
+$repo = new WillFarrell\AlfredPkgMan\Docker();
+echo $repo-&gt;search($query);</string>
 				<key>subtext</key>
 				<string>Search docker for "{query}"</string>
 				<key>title</key>
@@ -1335,20 +1776,247 @@ echo $w-&gt;toxml();</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>raspbian</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+require_once('code/Raspbian.php');
+
+$repo = new WillFarrell\AlfredPkgMan\Raspbian();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search Raspbian for "{query}"</string>
+				<key>title</key>
+				<string>Search Raspbian</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0376C25E-AF4F-4F76-B9BC-AD9E998CE4A3</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>cordova</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+require_once('code/Cordova.php');
+
+$repo = new WillFarrell\AlfredPkgMan\Cordova();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search Cordova for "{query}"</string>
+				<key>title</key>
+				<string>Search Cordova</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>5D46DE45-AD0E-4A12-8AE6-BFC129AA4C0F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>apm</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Searching for "{query}"</string>
+				<key>script</key>
+				<string>$query = &lt;&lt;&lt;EOD
+{query}
+EOD;
+
+require_once('code/Apm.php');
+
+$repo = new WillFarrell\AlfredPkgMan\Apm();
+echo $repo-&gt;search($query);</string>
+				<key>subtext</key>
+				<string>Search apm for "{query}"</string>
+				<key>title</key>
+				<string>Search apm</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>689DD809-6CBA-476F-9299-4D22CAF07D9F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Quick package/plugin/component (repo) lookup for your favourite package managers. Currently supports *Alcatraz* to *Yeoman Generators*.
+
+## Commands
+
+* `pkgman cleardb`: Clear local database cache files
+* `pkgman cachedb`: Update local database cache files
+
+* `alcatraz {query}`: [Cocoa Packages](http://alcatraz.io/)
+* `apt-get {query}`: [Linux Packages](https://apps.ubuntu.com)
+* `atom {query}`: [Atom Packages](https://atom.io)
+* `bower {query}`: [Bower Components](http://bower.io) for JavaScript
+* `brew {query}`: [Homebrew Plugins](http://braumeister.org)
+* `chef {query}`: [Chef Cookbooks](https://supermarket.chef.io)
+* `cocoa {query}`: CocoaPods can be upgraded to CocoaDocs by changing `$apple_docs` to true in the script.
+* `composer {query}`: PHP [Composer Packages](https://packagist.org)
+* `docker {query}`: [Docker Images](http://registry.hub.docker.io)
+* `gems {query}`: [Ruby Gems](http://rubygems.org)
+* `gradle {query}`: Java [Gradle Packages](http://www.gradle.org)
+* `grunt {query}`: nodeJS task-runner [Grunt Plugins](http://gruntjs.com)
+* `gulp {query}`: nodeJS task-runner [Gulp plugins](http://gulpjs.com)
+* `hex {query}`: Elixir [Hex Packages](http://hex.pm)
+* `maven {query}`: Java [Maven Libraries](http://mvnrepository.com)
+* `npm {query}`: nodeJS [NPM Packages](https://www.npmjs.org)
+* `pear {query}`: PHP [Pear Packages](http://pear.php.net)
+* `puppet {query}`: [Puppet Modules](https://forge.puppetlabs.com)
+* `pypi {query}`: [Python Packages](https://pypi.python.org)
+* `raspbian {query}`: [Rasberry Pi Packages](http://www.raspbian.org)
+* `rpm {query}`: [Linux Packages](http://rpmfind.net)
+* `yo {query}`: [Yeoman Generators](http://yeoman.io)
+
+## Action Modifiers
+
+* `default`: open README page url
+* `cmd`: copy name/id to frontmost app
+* `shift`: copy config file name/id and version to frontmost app
+
+## Additional Notes
+
+All workflows require constant internet connection.
+
+Workflows can break from time to time due to changes by the provider of the repo. If you notice a workflow stops working, post it at https://github.com/willfarrell/alfred-pkgman-workflow/issues.
+
+All repos have caching enabled to speed up common queries. These caches are refreshed after 14 days and may take longer than expected to return results during update. You can force a cache refresh by running `pkgman cachedb` to re-download the databases (applies to `alcatraz`, `grunt`, `cocoa`). Alternatively you can run `pkgman cleardb` to remove all stored cache, but this isn't recommended. Clearing your cache is recommended after an update if the package manager you use had a bug previously.
+
+The Python Package Index is very slow due to a lack on API and pagination. A min query length has been put in place to help speed this up. You can change it in the script, `$min_query_length = 3`. Perhaps someone with a python background can improve this.
+
+![][bower]
+![][npm]
+![][yo]
+![][grunt]
+![][gulp]
+![][alcatraz]
+![][cocoa]
+![][composer]
+![][pear]
+![][pypi]
+![][gems]
+![][maven]
+![][brew]
+![][rpm]
+![][docker]
+![][chef]
+![][hex]
+
+[alcatraz]: ./screenshots/alcatraz.png "Sample alcatraz result"
+[bower]: ./screenshots/bower.png "Sample bower result"
+[brew]: ./screenshots/brew.png "Sample brew result"
+[chef]: ./screenshots/chef.png "Sample chef result"
+[cocoa]: ./screenshots/cocoa.png "Sample cocoa result"
+[composer]: ./screenshots/composer.png "Sample composer result"
+[docker]: ./screenshots/docker.png "Sample docker result"
+[gems]: ./screenshots/gems.png "Sample gems result"
+[grunt]: ./screenshots/grunt.png "Sample grunt result"
+[gulp]: ./screenshots/gulp.png "Sample gulp result"
+[hex]: ./screenshots/hex.png "Sample hex resuls"
+[maven]: ./screenshots/maven.png "Sample maven result"
+[npm]: ./screenshots/npm.png "Sample npm result"
+[pear]: ./screenshots/pear.png "Sample pear result"
+[pypi]: ./screenshots/pypi.png "Sample pypi result"
+[rpm]: ./screenshots/rpm.png "Sample rpm result"
+[yo]: ./screenshots/yo.png "Sample yo result"</string>
 	<key>uidata</key>
 	<dict>
+		<key>0376C25E-AF4F-4F76-B9BC-AD9E998CE4A3</key>
+		<dict>
+			<key>ypos</key>
+			<real>2420</real>
+		</dict>
 		<key>0A704625-29E6-450E-8F2C-8E4EC7179899</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
 		</dict>
+		<key>135ECB8C-557A-41D9-BF9A-6439A5EA949E</key>
+		<dict>
+			<key>ypos</key>
+			<real>2080</real>
+		</dict>
 		<key>18B0C07D-A101-4267-B306-7925DE8A30C9</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
+		</dict>
+		<key>1A806429-BBAB-4227-B0C9-46E96CD3E492</key>
+		<dict>
+			<key>ypos</key>
+			<real>1930</real>
 		</dict>
 		<key>265DF548-7D96-4F94-AB0E-6AD26F31B4A1</key>
 		<dict>
@@ -1363,12 +2031,17 @@ echo $w-&gt;toxml();</string>
 		<key>2F314483-5E76-477B-BB7E-574CA71131B4</key>
 		<dict>
 			<key>ypos</key>
-			<real>1650</real>
+			<real>1980</real>
 		</dict>
 		<key>348251C4-2B72-432F-A923-B082C6740DEA</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
+		</dict>
+		<key>436DF03B-19A8-47CA-A8C6-27C31A52BB22</key>
+		<dict>
+			<key>ypos</key>
+			<real>2180</real>
 		</dict>
 		<key>4F9B49BB-0F1E-4D72-A339-08C76E2D2C2A</key>
 		<dict>
@@ -1380,25 +2053,40 @@ echo $w-&gt;toxml();</string>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
+		<key>5D46DE45-AD0E-4A12-8AE6-BFC129AA4C0F</key>
+		<dict>
+			<key>ypos</key>
+			<real>2580</real>
+		</dict>
 		<key>5F73C46B-877B-4BC6-A231-E72525BBCEB2</key>
 		<dict>
 			<key>ypos</key>
-			<real>540</real>
+			<real>640</real>
+		</dict>
+		<key>641E4359-7656-456E-93F2-11FE0F755254</key>
+		<dict>
+			<key>ypos</key>
+			<real>1560</real>
 		</dict>
 		<key>67851157-5987-4B55-BDD9-90A9347C46A5</key>
 		<dict>
 			<key>ypos</key>
-			<real>780</real>
+			<real>840</real>
+		</dict>
+		<key>689DD809-6CBA-476F-9299-4D22CAF07D9F</key>
+		<dict>
+			<key>ypos</key>
+			<real>2750</real>
+		</dict>
+		<key>6DA4E86D-6897-4E36-811B-EA9340364E48</key>
+		<dict>
+			<key>ypos</key>
+			<real>440</real>
 		</dict>
 		<key>72C0A2C4-3F23-46F5-831F-F0A7C4FD04C2</key>
 		<dict>
 			<key>ypos</key>
 			<real>460</real>
-		</dict>
-		<key>75D82ED5-8BFA-40BF-99AA-17D78AAB63D1</key>
-		<dict>
-			<key>ypos</key>
-			<real>1640</real>
 		</dict>
 		<key>78A70680-7C8A-4CC4-AE71-A070E3E8CCD9</key>
 		<dict>
@@ -1408,7 +2096,7 @@ echo $w-&gt;toxml();</string>
 		<key>8CEC2062-2484-4200-AE7A-BED7DA65E298</key>
 		<dict>
 			<key>ypos</key>
-			<real>1750</real>
+			<real>2280</real>
 		</dict>
 		<key>96A609DD-13FB-44C7-9ADB-F3BC94017A65</key>
 		<dict>
@@ -1419,6 +2107,11 @@ echo $w-&gt;toxml();</string>
 		<dict>
 			<key>ypos</key>
 			<real>1250</real>
+		</dict>
+		<key>A6F75F15-2128-4002-A841-2872651A1640</key>
+		<dict>
+			<key>ypos</key>
+			<real>2260</real>
 		</dict>
 		<key>A83F18D3-B34F-4AA7-A164-F19D8CE1C790</key>
 		<dict>
@@ -1433,27 +2126,52 @@ echo $w-&gt;toxml();</string>
 		<key>C0190356-1EDC-4E5C-8187-9E3C4C69FBD1</key>
 		<dict>
 			<key>ypos</key>
-			<real>440</real>
+			<real>540</real>
+		</dict>
+		<key>CDC59D6D-6D7A-48F9-BFC3-72DAF712EF19</key>
+		<dict>
+			<key>ypos</key>
+			<real>2080</real>
+		</dict>
+		<key>D16CFAE9-21B6-44DD-965D-73EC1BE630C2</key>
+		<dict>
+			<key>ypos</key>
+			<real>2260</real>
 		</dict>
 		<key>D22F4CD1-A38D-4D9A-B910-E82A467AB0CC</key>
 		<dict>
 			<key>ypos</key>
 			<real>1150</real>
 		</dict>
+		<key>D882F2C5-CA0E-4D23-B1CC-28AC8AD1DB0E</key>
+		<dict>
+			<key>ypos</key>
+			<real>1660</real>
+		</dict>
 		<key>D8F2FDC0-B462-4C50-8A42-9E6A511395A8</key>
 		<dict>
 			<key>ypos</key>
-			<real>1550</real>
+			<real>1880</real>
 		</dict>
 		<key>E106723F-9932-431B-8250-64F2983338FC</key>
 		<dict>
 			<key>ypos</key>
-			<real>680</real>
+			<real>740</real>
 		</dict>
 		<key>E894CAC8-3680-4863-B8A5-EFCFD78B56F3</key>
 		<dict>
 			<key>ypos</key>
 			<real>340</real>
+		</dict>
+		<key>E928110A-9651-4404-BCF3-CCF77B35BB0B</key>
+		<dict>
+			<key>ypos</key>
+			<real>2040</real>
+		</dict>
+		<key>F1559F42-7F85-4A26-A604-6E31BD686380</key>
+		<dict>
+			<key>ypos</key>
+			<real>1770</real>
 		</dict>
 	</dict>
 	<key>webaddress</key>

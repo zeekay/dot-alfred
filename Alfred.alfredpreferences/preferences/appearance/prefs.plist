@@ -4,6 +4,116 @@
 <dict>
 	<key>themes</key>
 	<dict>
+		<key>alfred.theme.custom.05733C5E-8F33-4514-9929-09BE30610800</key>
+		<dict>
+			<key>background</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMBhARmZmZmg/X0dD+D9fR0P4P19HQ/AYY=
+			</data>
+			<key>border</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMChARmZmZmAAAAAIY=
+			</data>
+			<key>cornerRoundness</key>
+			<integer>3</integer>
+			<key>credits</key>
+			<string>Zach Kelling</string>
+			<key>imageStyle</key>
+			<integer>3</integer>
+			<key>name</key>
+			<string>OS X Yosemite (Blue)</string>
+			<key>resultPaddingSize</key>
+			<integer>3</integer>
+			<key>resultSelectedBackgroundColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMBhARmZmZmg5GQED2Do6KiPoPR0FA/AYY=
+			</data>
+			<key>resultSelectedSubtextColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMDhAJmZgGDhetRP4Y=
+			</data>
+			<key>resultSelectedTextColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMDhAJmZgEBhg==
+			</data>
+			<key>resultSubtextColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMChARmZmZmg5qZGT+DmpkZP4OamRk/AYY=
+			</data>
+			<key>resultSubtextFont</key>
+			<string>SF UI Display Light</string>
+			<key>resultSubtextFontSize</key>
+			<integer>1</integer>
+			<key>resultTextColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMChARmZmZmgz0KVz6DPQpXPoM9Clc+AYY=
+			</data>
+			<key>resultTextFont</key>
+			<string>System Light</string>
+			<key>resultTextFontSize</key>
+			<integer>2</integer>
+			<key>scrollbarColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMChARmZmZmAAAAg83MzD2G
+			</data>
+			<key>searchBackgroundColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMBhARmZmZmg/X0dD+D9fR0P4P19HQ/AYY=
+			</data>
+			<key>searchFont</key>
+			<string>System Light</string>
+			<key>searchFontSize</key>
+			<integer>3</integer>
+			<key>searchForegroundColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMDhAJmZgABhg==
+			</data>
+			<key>searchPaddingSize</key>
+			<integer>0</integer>
+			<key>searchSelectionBackgroundColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMBhARmZmZmg5STEz+DvLs7P4Pu7W0/AYY=
+			</data>
+			<key>searchSelectionForegroundColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMDhAJmZgABhg==
+			</data>
+			<key>separatorColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMChARmZmZmAAAAAIY=
+			</data>
+			<key>shortcutColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMChARmZmZmgzMzMz+DMzMzP4MzMzM/AYY=
+			</data>
+			<key>shortcutFont</key>
+			<string>System Light</string>
+			<key>shortcutFontSize</key>
+			<integer>2</integer>
+			<key>shortcutSelectedColor</key>
+			<data>
+			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
+			ZWN0AIWEAWMDhAJmZoPe3V8/AYY=
+			</data>
+			<key>uid</key>
+			<string>alfred.theme.custom.05733C5E-8F33-4514-9929-09BE30610800</string>
+			<key>widthSize</key>
+			<integer>3</integer>
+		</dict>
 		<key>alfred.theme.custom.62D3A4EB-9954-464F-9BC3-0F6D19C7475E</key>
 		<dict>
 			<key>background</key>
@@ -14,16 +124,16 @@
 			<key>border</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
-			ZWN0AIWEAWMChARmZmZmg3sUbj+DexRuP4N7FG4/AIY=
+			ZWN0AIWEAWMDhAJmZgAAhg==
 			</data>
 			<key>cornerRoundness</key>
-			<integer>0</integer>
+			<integer>10</integer>
 			<key>credits</key>
 			<string>Zach Kelling</string>
 			<key>imageStyle</key>
-			<integer>4</integer>
+			<integer>7</integer>
 			<key>name</key>
-			<string>Mavericks</string>
+			<string>OS X Mavericks</string>
 			<key>resultPaddingSize</key>
 			<integer>1</integer>
 			<key>resultSelectedBackgroundColor</key>
@@ -67,7 +177,7 @@
 			<key>searchBackgroundColor</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
-			ZWN0AIWEAWMDhAJmZoO3LnQ/AIY=
+			ZWN0AIWEAWMBhARmZmZmg+3sbD+D6+pqP4Pr6mo/AYY=
 			</data>
 			<key>searchFont</key>
 			<string>Helvetica</string>
@@ -79,7 +189,7 @@
 			ZWN0AIWEAWMChARmZmZmg83MTD6DzcxMPoPNzEw+AYY=
 			</data>
 			<key>searchPaddingSize</key>
-			<integer>3</integer>
+			<integer>1</integer>
 			<key>separatorColor</key>
 			<data>
 			BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2Jq
@@ -102,7 +212,7 @@
 			<key>uid</key>
 			<string>alfred.theme.custom.62D3A4EB-9954-464F-9BC3-0F6D19C7475E</string>
 			<key>widthSize</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 	</dict>
 </dict>
