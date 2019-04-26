@@ -5,32 +5,32 @@
       "subtext" : {
         "size" : 12,
         "colorSelected" : "#FFFFFFCC",
-        "font" : "System",
+        "font" : "System Light",
         "color" : "#FFFFFF66"
       },
       "shortcut" : {
-        "size" : 16,
+        "size" : 14,
         "colorSelected" : "#FFFFFFFF",
-        "font" : "System",
+        "font" : "System Light",
         "color" : "#FEFFFF66"
       },
       "backgroundSelected" : "#016BDEFF",
       "text" : {
-        "size" : 18,
+        "size" : 16,
         "colorSelected" : "#FFFFFFFF",
-        "font" : "System",
+        "font" : "System Light",
         "color" : "#FFFFFFD8"
       },
       "iconPaddingHorizontal" : 4,
-      "paddingVertical" : 3,
+      "paddingVertical" : 4,
       "iconSize" : 40
     },
     "search" : {
-      "paddingVertical" : 4,
-      "background" : "#EAEAEA00",
+      "paddingVertical" : 3,
+      "background" : "#2C2D2CFF",
       "spacing" : 4,
       "text" : {
-        "size" : 34,
+        "size" : 32,
         "colorSelected" : "#000000FF",
         "font" : "System Light",
         "color" : "#FFFFFFFF"
@@ -38,13 +38,13 @@
       "backgroundSelected" : "#A6D0FFFF"
     },
     "window" : {
-      "color" : "#13161FFF",
+      "color" : "#2D2E2DFF",
       "paddingHorizontal" : 0,
       "width" : 559,
-      "borderPadding" : 0,
-      "borderColor" : "#00000000",
-      "blur" : 12,
-      "roundness" : 3,
+      "borderPadding" : 1,
+      "borderColor" : "#434343FF",
+      "blur" : 40,
+      "roundness" : 5,
       "paddingVertical" : 4
     },
     "credit" : "Zach Kelling",
