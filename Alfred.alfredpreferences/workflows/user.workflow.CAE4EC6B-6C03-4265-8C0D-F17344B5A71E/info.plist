@@ -115,7 +115,7 @@
 			<key>config</key>
 			<dict>
 				<key>openwith</key>
-				<string>/usr/local/Cellar/macvim/8.2-165/MacVim.app</string>
+				<string>/usr/local/Cellar/macvim/8.2-165_1/MacVim.app</string>
 				<key>sourcefile</key>
 				<string></string>
 			</dict>
@@ -131,7 +131,7 @@
 			<dict>
 				<key>paths</key>
 				<array>
-					<string>/usr/local/Cellar/macvim/8.2-165/MacVim.app</string>
+					<string>/usr/local/Cellar/macvim/8.2-165_1/MacVim.app</string>
 				</array>
 				<key>toggle</key>
 				<false/>
