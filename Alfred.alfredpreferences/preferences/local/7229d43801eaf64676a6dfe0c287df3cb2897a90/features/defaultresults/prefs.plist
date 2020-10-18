@@ -12,7 +12,7 @@
 		<string>/System/Library/CoreServices/Applications</string>
 		<string>/System/Library/PreferencePanes</string>
 		<string>/usr/local/Cellar</string>
-		<string>/usr/local/Cellar/macvim/8.2-163_2</string>
+		<string>/usr/local/Cellar/macvim</string>
 		<string>~/Applications</string>
 		<string>~/Library/Caches/Metadata</string>
 		<string>~/Library/Mobile Documents</string>
