@@ -8,5 +8,7 @@
 	<true/>
 	<key>hidemenu</key>
 	<true/>
+	<key>nativedarkmode</key>
+	<true/>
 </dict>
 </plist>

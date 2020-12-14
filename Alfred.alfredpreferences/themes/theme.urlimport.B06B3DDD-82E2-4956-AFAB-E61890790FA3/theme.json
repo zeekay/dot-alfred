@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 8,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#00000065",
+        "font" : "System",
+        "color" : "#00000065"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#00000067",
+        "font" : "System",
+        "color" : "#00000065"
+      },
+      "backgroundSelected" : "#0000000E",
+      "text" : {
+        "size" : 18,
+        "colorSelected" : "#000000E5",
+        "font" : "System",
+        "color" : "#000000E5"
+      },
+      "iconPaddingHorizontal" : 10,
+      "paddingVertical" : 9,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 12,
+      "background" : "#F5FFFE00",
+      "spacing" : 8,
+      "text" : {
+        "size" : 34,
+        "colorSelected" : "#020202E5",
+        "font" : "System",
+        "color" : "#000000E5"
+      },
+      "backgroundSelected" : "#00000030"
+    },
+    "window" : {
+      "color" : "#FDFCFFCC",
+      "paddingHorizontal" : 17,
+      "width" : 630,
+      "borderPadding" : 0,
+      "borderColor" : "#00000000",
+      "blur" : 35,
+      "roundness" : 14,
+      "paddingVertical" : 13
+    },
+    "credit" : "Julian",
+    "separator" : {
+      "color" : "#00000019",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#02020232",
+      "thickness" : 2
+    },
+    "name" : "macOS Big Sur Light"
+  }
+}
