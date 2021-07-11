@@ -8,11 +8,50 @@
 	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
+		<key>27D12796-68B2-4E0B-9229-87610F216388</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>14C7304A-9D98-4788-A039-E6ED726B886B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>941308C7-4440-4C03-B1AD-85B3BA80F52B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>14C7304A-9D98-4788-A039-E6ED726B886B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9EC8929D-1736-4DB0-92DF-D249DB19853E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>14C7304A-9D98-4788-A039-E6ED726B886B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>A3B2F40E-1FDB-4602-A3F0-58E88840681B</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>310038E8-0395-44EB-BD1F-DD37919C3813</string>
+				<string>14C7304A-9D98-4788-A039-E6ED726B886B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -25,7 +64,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>74138C34-B8A1-4DE4-9E30-E9DF8DFDD232</string>
+				<string>14C7304A-9D98-4788-A039-E6ED726B886B</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -98,11 +137,11 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string></string>
+				<string>Open file with MacVim</string>
 				<key>types</key>
 				<array/>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.filefilter</string>
@@ -114,34 +153,112 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string>/usr/local/Cellar/macvim/8.2-165_1/MacVim.app</string>
-				<key>sourcefile</key>
-				<string>/usr/local/Cellar/macvim/latest/MacVim.app</string>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>vim</string>
+				<key>limit</key>
+				<integer>0</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>sortmode</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Open file with MacVim</string>
+				<key>types</key>
+				<array/>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
+			<string>alfred.workflow.input.filefilter</string>
 			<key>uid</key>
-			<string>74138C34-B8A1-4DE4-9E30-E9DF8DFDD232</string>
+			<string>27D12796-68B2-4E0B-9229-87610F216388</string>
 			<key>version</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>paths</key>
-				<array>
-					<string>/usr/local/Cellar/macvim/8.2-166_1/MacVim.app</string>
-				</array>
-				<key>toggle</key>
-				<false/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>vim</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Launch MacVim</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.launchfiles</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>310038E8-0395-44EB-BD1F-DD37919C3813</string>
+			<string>9EC8929D-1736-4DB0-92DF-D249DB19853E</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<true/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>mvim $query</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>/usr/local/bin/mvim</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>14C7304A-9D98-4788-A039-E6ED726B886B</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -151,11 +268,11 @@
 				<key>keyword</key>
 				<string>macvim</string>
 				<key>subtext</key>
-				<string>Launch MacVim</string>
+				<string></string>
 				<key>text</key>
-				<string>MacVim</string>
+				<string>Launch MacVim</string>
 				<key>withspace</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
@@ -164,38 +281,73 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>mvim</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Launch MacVim</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>941308C7-4440-4C03-B1AD-85B3BA80F52B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>310038E8-0395-44EB-BD1F-DD37919C3813</key>
+		<key>14C7304A-9D98-4788-A039-E6ED726B886B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>325</integer>
+			<integer>500</integer>
 			<key>ypos</key>
 			<integer>245</integer>
 		</dict>
-		<key>74138C34-B8A1-4DE4-9E30-E9DF8DFDD232</key>
+		<key>27D12796-68B2-4E0B-9229-87610F216388</key>
 		<dict>
 			<key>xpos</key>
-			<integer>270</integer>
+			<integer>310</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>35</integer>
+		</dict>
+		<key>941308C7-4440-4C03-B1AD-85B3BA80F52B</key>
+		<dict>
+			<key>xpos</key>
+			<integer>65</integer>
+			<key>ypos</key>
+			<integer>530</integer>
+		</dict>
+		<key>9EC8929D-1736-4DB0-92DF-D249DB19853E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>45</integer>
+			<key>ypos</key>
+			<integer>220</integer>
 		</dict>
 		<key>A3B2F40E-1FDB-4602-A3F0-58E88840681B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>40</integer>
+			<integer>60</integer>
 			<key>ypos</key>
-			<integer>245</integer>
+			<integer>375</integer>
 		</dict>
 		<key>FF8E3BE3-2E94-4801-8A01-9AA8DE17340B</key>
 		<dict>
 			<key>xpos</key>
-			<integer>50</integer>
+			<integer>10</integer>
 			<key>ypos</key>
-			<integer>50</integer>
+			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>

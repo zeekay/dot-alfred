@@ -1,0 +1,13 @@
+- Terminate all equity in respective companies
+- 75% of the damon equity is assigned to Hanzo, Inc
+- in exchange, they can keep 5 year unlimited license Hanzo
+- in the case of a liquidity event or during a change of control I agree to
+  negotiate in good faith an extension of the license at a discount to
+  prevailing market rate at such date.
+- mutual release, mutual non-disparagement
+- i agree not to take any of existing contracts
+- liquidated damages per breach
+    - non-disparagement, mutual release, IP license provisions
+
+    parties agree that the cost of a breach is $50,000 per day where breaching party remains in breach
+    unless or until the other party agrees to cure breach or pay damages
