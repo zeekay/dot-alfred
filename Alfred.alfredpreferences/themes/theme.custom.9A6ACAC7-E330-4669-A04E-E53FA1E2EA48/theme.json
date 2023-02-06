@@ -1,0 +1,65 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 5,
+      "subtext" : {
+        "size" : 15,
+        "colorSelected" : "#FFFFFFCB",
+        "font" : "System",
+        "color" : "#FFFFFF7E"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#FFFFFF7E"
+      },
+      "backgroundSelected" : "#0000003E",
+      "text" : {
+        "size" : 15,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System",
+        "color" : "#FFFFFFCB"
+      },
+      "iconPaddingHorizontal" : 7,
+      "roundness" : 8,
+      "paddingVertical" : 3,
+      "iconSize" : 48
+    },
+    "search" : {
+      "backgroundSelected" : "#0000003E",
+      "paddingHorizontal" : 7,
+      "spacing" : 9,
+      "text" : {
+        "size" : 30,
+        "colorSelected" : "#FFFFFFFF",
+        "font" : "System Light",
+        "color" : "#FBFFFFFF"
+      },
+      "background" : "#00000000",
+      "roundness" : 8,
+      "paddingVertical" : 5
+    },
+    "window" : {
+      "color" : "#00000066",
+      "paddingHorizontal" : 9,
+      "width" : 700,
+      "borderPadding" : 0,
+      "borderColor" : "#0000007F",
+      "blur" : 0,
+      "roundness" : 15,
+      "paddingVertical" : 9
+    },
+    "credit" : "Z",
+    "visualEffectMode" : 2,
+    "separator" : {
+      "color" : "#CBCBCBF3",
+      "thickness" : 0
+    },
+    "scrollbar" : {
+      "color" : "#358188FF",
+      "thickness" : 2
+    },
+    "name" : "Alfred Modern Dark (Z)"
+  }
+}
