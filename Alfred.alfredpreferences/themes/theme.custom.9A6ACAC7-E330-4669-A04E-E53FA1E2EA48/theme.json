@@ -24,7 +24,7 @@
       "iconPaddingHorizontal" : 7,
       "roundness" : 8,
       "paddingVertical" : 3,
-      "iconSize" : 48
+      "iconSize" : 36
     },
     "search" : {
       "backgroundSelected" : "#0000003E",
